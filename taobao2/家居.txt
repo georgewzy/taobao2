@@ -1,0 +1,1037 @@
+ {
+                "common": [
+                    {
+                        "text": "日用/礼品",
+                        "sub": [
+                            {
+                                "text": "创意礼品",
+                                "value": "50016434",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50016434",
+                                "selected": 1
+                            },
+                            {
+                                "text": "钟表",
+                                "value": "50008275",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50008275"
+                            },
+                            {
+                                "text": "保暖贴/保暖用品",
+                                "value": "50012512",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50012512"
+                            },
+                            {
+                                "text": "竹炭包",
+                                "value": "50003948",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50003948"
+                            },
+                            {
+                                "text": "庆典用品",
+                                "value": "2801",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=2801"
+                            },
+                            {
+                                "text": "伞具/雨具",
+                                "value": "50010099",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50010099"
+                            },
+                            {
+                                "text": "防护用品",
+                                "value": "50012514",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50012514"
+                            },
+                            {
+                                "text": "卫浴/配件",
+                                "value": "2132",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=2132"
+                            },
+                            {
+                                "text": "鞋用品",
+                                "value": "50006528",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50006528"
+                            },
+                            {
+                                "text": "家用五金",
+                                "value": "50009206",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50009206"
+                            },
+                            {
+                                "text": "风扇/配件",
+                                "value": "50010464",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50010464"
+                            },
+                            {
+                                "text": "增高减肥用品",
+                                "value": "50023068",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50023068"
+                            },
+                            {
+                                "text": "驱虫用品",
+                                "value": "50025838",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50025838"
+                            },
+                            {
+                                "text": "香薰用品",
+                                "value": "50025839",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50025839"
+                            }
+                        ],
+                        "defaultShowMore": true
+                    },
+                    {
+                        "text": "床品/布艺",
+                        "sub": [
+                            {
+                                "text": "毛毯/珊瑚绒毯",
+                                "value": "50001871",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50001871"
+                            },
+                            {
+                                "text": "抱枕/坐垫",
+                                "value": "213002",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=213002"
+                            },
+                            {
+                                "text": "枕头/保健枕",
+                                "value": "50002777",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50002777"
+                            },
+                            {
+                                "text": "蚊帐",
+                                "value": "121452006",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=121452006"
+                            },
+                            {
+                                "text": "浴巾/浴袍",
+                                "value": "50010103",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50010103"
+                            },
+                            {
+                                "text": "夏日凉席",
+                                "value": "50008246",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50008246"
+                            },
+                            {
+                                "text": "床品套件/四件套",
+                                "value": "50008779",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50008779"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    },
+                    {
+                        "text": "厨房/餐饮",
+                        "sub": [
+                            {
+                                "text": "厨用小工具",
+                                "value": "50008281",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50008281"
+                            },
+                            {
+                                "text": "烹饪用具",
+                                "value": "50010101",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50010101"
+                            },
+                            {
+                                "text": "瓷器餐具套装",
+                                "value": "50002797",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50002797"
+                            },
+                            {
+                                "text": "酒具/酒杯",
+                                "value": "123006001",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=123006001"
+                            },
+                            {
+                                "text": "保鲜容器/保鲜器皿",
+                                "value": "123008001",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=123008001"
+                            },
+                            {
+                                "text": "烧烤/烘焙",
+                                "value": "50002258",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50002258"
+                            },
+                            {
+                                "text": "餐具笼/架",
+                                "value": "50002800",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50002800"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    },
+                    {
+                        "text": "日化/清洁",
+                        "sub": [
+                            {
+                                "text": "香熏用品",
+                                "value": "2165",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=2165"
+                            },
+                            {
+                                "text": "驱虫用品",
+                                "value": "210207",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=210207"
+                            },
+                            {
+                                "text": "衣物清洁/护理",
+                                "value": "50018975",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50018975"
+                            },
+                            {
+                                "text": "家务/地板清洁用具",
+                                "value": "50003949",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50003949"
+                            },
+                            {
+                                "text": "个人洗浴护理",
+                                "value": "50009146",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50009146"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    },
+                    {
+                        "text": "折扣券",
+                        "sub": [
+                            {
+                                "text": "自助餐餐券",
+                                "value": "50015757",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015757"
+                            },
+                            {
+                                "text": "休闲/桌游/DIY",
+                                "value": "50025982",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50025982"
+                            },
+                            {
+                                "text": "美容美发/美体瘦身",
+                                "value": "50019080",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019080"
+                            },
+                            {
+                                "text": "足浴/洗浴/按摩",
+                                "value": "50019100",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019100"
+                            },
+                            {
+                                "text": "户外活动",
+                                "value": "50026044",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50026044"
+                            },
+                            {
+                                "text": "运动健身",
+                                "value": "50019079",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019079"
+                            },
+                            {
+                                "text": "面包/月饼/蛋糕",
+                                "value": "50019055",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019055"
+                            },
+                            {
+                                "text": "快餐/小吃券",
+                                "value": "50025996",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50025996"
+                            },
+                            {
+                                "text": "西餐/东南亚美食",
+                                "value": "50026022",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50026022"
+                            },
+                            {
+                                "text": "KTV/酒吧/俱乐部",
+                                "value": "50026008",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50026008"
+                            },
+                            {
+                                "text": "演出票务",
+                                "value": "50019084",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019084"
+                            },
+                            {
+                                "text": "网络店铺代金券",
+                                "value": "50020126",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020126"
+                            },
+                            {
+                                "text": "冷饮/咖啡/茶楼",
+                                "value": "50019073",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019073"
+                            },
+                            {
+                                "text": "食品提货券",
+                                "value": "50019058",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019058"
+                            },
+                            {
+                                "text": "其他折扣券",
+                                "value": "50019072",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019072"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    },
+                    {
+                        "text": "成人用品",
+                        "sub": [
+                            {
+                                "text": "计生用品",
+                                "value": "50012829",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50012829"
+                            },
+                            {
+                                "text": "男用器具",
+                                "value": "50019617",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019617"
+                            },
+                            {
+                                "text": "女用器具",
+                                "value": "50019630",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019630"
+                            },
+                            {
+                                "text": "情趣用品",
+                                "value": "50019641",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019641"
+                            },
+                            {
+                                "text": "情趣内衣",
+                                "value": "50019651",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019651"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    },
+                    {
+                        "text": "商业/办公家具",
+                        "sub": [
+                            {
+                                "text": "办公桌",
+                                "value": "50015435",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015435"
+                            },
+                            {
+                                "text": "办公椅",
+                                "value": "50015444",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015444"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    },
+                    {
+                        "text": "布艺软饰",
+                        "sub": [
+                            {
+                                "text": "地毯",
+                                "value": "50000582",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50000582"
+                            },
+                            {
+                                "text": "布艺窗帘",
+                                "value": "50020676",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020676"
+                            },
+                            {
+                                "text": "沙发套/沙发巾",
+                                "value": "50020778",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020778"
+                            },
+                            {
+                                "text": "地垫",
+                                "value": "50000583",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50000583"
+                            },
+                            {
+                                "text": "餐桌布艺",
+                                "value": "122950002",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=122950002"
+                            },
+                            {
+                                "text": "十字绣工具/配件",
+                                "value": "122946001",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=122946001"
+                            },
+                            {
+                                "text": "收纳盒",
+                                "value": "50022668",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50022668"
+                            },
+                            {
+                                "text": "刺绣",
+                                "value": "122232009",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=122232009"
+                            },
+                            {
+                                "text": "杯垫",
+                                "value": "50022669",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50022669"
+                            },
+                            {
+                                "text": "挂毯/壁毯",
+                                "value": "50000584",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50000584"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    },
+                    {
+                        "text": "工艺饰品",
+                        "sub": [
+                            {
+                                "text": "装饰摆件",
+                                "value": "50020835",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020835"
+                            },
+                            {
+                                "text": "贴饰",
+                                "value": "50020840",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020840"
+                            },
+                            {
+                                "text": "花瓶",
+                                "value": "50021878",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021878"
+                            },
+                            {
+                                "text": "装饰画",
+                                "value": "122632007",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=122632007"
+                            },
+                            {
+                                "text": "相片墙",
+                                "value": "50021924",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021924"
+                            },
+                            {
+                                "text": "雕刻工艺",
+                                "value": "50020834",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020834"
+                            },
+                            {
+                                "text": "像框/相架/画框",
+                                "value": "50000561",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50000561"
+                            },
+                            {
+                                "text": "香味蜡烛",
+                                "value": "50021927",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021927"
+                            },
+                            {
+                                "text": "创意饰品",
+                                "value": "50020856",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020856"
+                            },
+                            {
+                                "text": "饰品盒",
+                                "value": "50021888",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021888"
+                            },
+                            {
+                                "text": "仿真花卉/盆景",
+                                "value": "50021929",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021929"
+                            },
+                            {
+                                "text": "烛台",
+                                "value": "50021925",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021925"
+                            },
+                            {
+                                "text": "台钟/闹钟",
+                                "value": "50021932",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021932"
+                            },
+                            {
+                                "text": "挂钟/落地钟",
+                                "value": "50021933",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021933"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    },
+                    {
+                        "text": "家装主材",
+                        "sub": [
+                            {
+                                "text": "卫浴家具",
+                                "value": "50020018",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020018"
+                            },
+                            {
+                                "text": "卫浴五金/挂件",
+                                "value": "50016746",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50016746"
+                            },
+                            {
+                                "text": "厨盆/水槽",
+                                "value": "50021798",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021798"
+                            },
+                            {
+                                "text": "落地灯",
+                                "value": "50019939",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019939"
+                            },
+                            {
+                                "text": "电热水器",
+                                "value": "50013475",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50013475"
+                            },
+                            {
+                                "text": "卫浴龙头",
+                                "value": "50020008",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020008"
+                            },
+                            {
+                                "text": "床头台灯",
+                                "value": "50020104",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020104"
+                            },
+                            {
+                                "text": "艺术吊灯",
+                                "value": "122612008",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=122612008"
+                            },
+                            {
+                                "text": "浴缸",
+                                "value": "50020016",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020016"
+                            },
+                            {
+                                "text": "玻化砖",
+                                "value": "50022273",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50022273"
+                            },
+                            {
+                                "text": "厨房龙头",
+                                "value": "50013354",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50013354"
+                            },
+                            {
+                                "text": "强化复合地板",
+                                "value": "50022289",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50022289"
+                            },
+                            {
+                                "text": "坐便器",
+                                "value": "50020009",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020009"
+                            },
+                            {
+                                "text": "洗面盆",
+                                "value": "50020014",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020014"
+                            },
+                            {
+                                "text": "实木地板",
+                                "value": "50022287",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50022287"
+                            },
+                            {
+                                "text": "多功能浴霸",
+                                "value": "50013500",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50013500"
+                            },
+                            {
+                                "text": "燃气热水器",
+                                "value": "50013497",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50013497"
+                            },
+                            {
+                                "text": "艺术顶灯",
+                                "value": "50019940",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019940"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    },
+                    {
+                        "text": "住宅家具",
+                        "sub": [
+                            {
+                                "text": "柜类",
+                                "value": "50001705",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50001705"
+                            },
+                            {
+                                "text": "设计师家具",
+                                "value": "121384016",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=121384016"
+                            },
+                            {
+                                "text": "屏风类",
+                                "value": "50015915",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015915"
+                            },
+                            {
+                                "text": "户外家具",
+                                "value": "50015230",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015230"
+                            },
+                            {
+                                "text": "床类",
+                                "value": "50015200",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015200"
+                            },
+                            {
+                                "text": "案/台类",
+                                "value": "50015886",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015886"
+                            },
+                            {
+                                "text": "衣柜",
+                                "value": "50015744",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015744"
+                            },
+                            {
+                                "text": "儿童床",
+                                "value": "50015827",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015827"
+                            },
+                            {
+                                "text": "实木床",
+                                "value": "50019997",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50019997"
+                            },
+                            {
+                                "text": "镜子类",
+                                "value": "50020617",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020617"
+                            },
+                            {
+                                "text": "床垫类",
+                                "value": "50021837",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021837"
+                            },
+                            {
+                                "text": "懒人沙发",
+                                "value": "50015458",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015458"
+                            },
+                            {
+                                "text": "沙发床",
+                                "value": "50015457",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015457"
+                            },
+                            {
+                                "text": "椅子",
+                                "value": "50015232",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015232"
+                            },
+                            {
+                                "text": "电视柜",
+                                "value": "211509",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=211509"
+                            },
+                            {
+                                "text": "床头柜",
+                                "value": "50001382",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50001382"
+                            },
+                            {
+                                "text": "梳妆台/桌",
+                                "value": "50001385",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50001385"
+                            },
+                            {
+                                "text": "餐桌",
+                                "value": "50001403",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50001403"
+                            },
+                            {
+                                "text": "衣帽架",
+                                "value": "50001412",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50001412"
+                            },
+                            {
+                                "text": "折叠桌",
+                                "value": "50001415",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50001415"
+                            },
+                            {
+                                "text": "茶几",
+                                "value": "50001709",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50001709"
+                            },
+                            {
+                                "text": "书柜",
+                                "value": "50015885",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50015885"
+                            },
+                            {
+                                "text": "格架",
+                                "value": "50001717",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50001717"
+                            },
+                            {
+                                "text": "电脑桌",
+                                "value": "50003823",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50003823"
+                            },
+                            {
+                                "text": "鞋柜",
+                                "value": "211507",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=211507"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    },
+                    {
+                        "text": "五金/工具",
+                        "sub": [
+                            {
+                                "text": "电动工具",
+                                "value": "50020646",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020646"
+                            },
+                            {
+                                "text": "手动工具",
+                                "value": "50020487",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020487"
+                            },
+                            {
+                                "text": "家用五金",
+                                "value": "50020486",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020486"
+                            },
+                            {
+                                "text": "开关",
+                                "value": "50021011",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021011"
+                            },
+                            {
+                                "text": "仪器仪表",
+                                "value": "50020519",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020519"
+                            },
+                            {
+                                "text": "插座",
+                                "value": "50020585",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020585"
+                            },
+                            {
+                                "text": "接线板/插头",
+                                "value": "50022516",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50022516"
+                            },
+                            {
+                                "text": "电线",
+                                "value": "50021033",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50021033"
+                            },
+                            {
+                                "text": "布线箱",
+                                "value": "50020995",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020995"
+                            },
+                            {
+                                "text": "交换器",
+                                "value": "50013405",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50013405"
+                            },
+                            {
+                                "text": "机电五金",
+                                "value": "50020491",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020491"
+                            },
+                            {
+                                "text": "转换器",
+                                "value": "50020599",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020599"
+                            },
+                            {
+                                "text": "节电器",
+                                "value": "50020606",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020606"
+                            },
+                            {
+                                "text": "变压器",
+                                "value": "50020975",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020975"
+                            },
+                            {
+                                "text": "机械五金",
+                                "value": "50020490",
+                                "desc": "",
+                                "key": "leafId",
+                                "url": "./index.php?topId=TR_JJ&leafId=50020490"
+                            }
+                        ],
+                        "defaultShowMore": false
+                    }
+                ],
+                "spmModId": "3"
+            }
