@@ -6,21 +6,21 @@
             		
 "type": "root",
 "global": {
-	"token": "f66b31e571e77",
-	"catId": 213002,
-	"mainCatId":122852001,
+	"token": "7ede37b71eea7",
+	"catId": 50006079,
+	"mainCatId":25,
 	"userId": 795343049,
 	"isDaily": false,
 	"isEdit":true,
 		"submitUrl":"/auction/container/item_edit_upload.htm?_input_charset=utf-8&_output_charset=utf-8&submitType=ajax&isBbcItem=false",
-				"mscSaveUrl":"/auction/container/mscenter/editMscItem.htm?_input_charset=utf-8&_output_charset=utf-8&submitType=ajax&itemId=565566513374&catId=213002",
+				"mscSaveUrl":"/auction/container/mscenter/editMscItem.htm?_input_charset=utf-8&_output_charset=utf-8&submitType=ajax&itemId=565892411255&catId=50006079",
 	"mscNameInputFlag": true,
-		"mscGetListUrl":"/auction/container/mscenter/getMscList.htm?_input_charset=utf-8&_output_charset=utf-8&submitType=ajax&itemId=565566513374&catId=213002",
+		"mscGetListUrl":"/auction/container/mscenter/getMscList.htm?_input_charset=utf-8&_output_charset=utf-8&submitType=ajax&itemId=565892411255&catId=50006079",
 	"hideDraft": false,
-		"itemId":565566513374,
+		"itemId":565892411255,
 	"saType" : 1
 },
-"catPath": "类目：居家布艺\u003E\u003E靠垫/抱枕",
+"catPath": "类目：玩具/童车/益智/积木/模型\u003E\u003E童车/儿童轮滑\u003E\u003E滑板车",
 "canChangeCat":  true ,
 "title":"一口价宝贝发布", "assets":{
 	"domain":"upload.taobao.com",
@@ -67,7 +67,7 @@
 				"sourceId": 566
 			}
 						
-                                                                                                            
+                                                                        
                 			    ,{
 			    	"id": "saleProps",
 			    	"text":"1 选择颜色或者输入出现的联想词都会进入搜索\u003Cbr /\u003E2 批量填充功能，当填写价格后确定，所有宝贝规格的价格自动填充\u003Cbr /\u003E",
@@ -143,11 +143,7 @@
 				"text": "设置是否提供退换货承诺服务",
 				"sourceId": 578
 			}
-												,{
-				"id":"customize.support",
-				"text":"如果选择了定制，使用图片传输，则详情页会在标题前自动加上定制标签"
-			}
-									,{
+															,{
 				"id":"subStockType",
 				"text":"若选择付款减库存：<br />1 商品在买家拍下之后会产生相应的预扣库存数<br />2 当买家拍下超过30分钟未付款，预扣库存数会自动释放",
         "sourceId": 576
@@ -239,19 +235,19 @@
 		"options":[
 						{
 				"comid":"title",
-				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%22122852001%22%2C%22helperGroupId%22%3A0%7D"
+				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2225%22%2C%22helperGroupId%22%3A0%7D"
 			},
 			{
 				"comid":"saleProps",
-				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%22122852001%22%2C%22helperGroupId%22%3A1%7D"
+				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2225%22%2C%22helperGroupId%22%3A1%7D"
 			},
 			{
 				"comid":"multiMedia",
-				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%22122852001%22%2C%22helperGroupId%22%3A2%7D"
+				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2225%22%2C%22helperGroupId%22%3A2%7D"
 			}
 						,{
 				"comid":"deliverWay",
-				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%22122852001%22%2C%22helperGroupId%22%3A3%7D"
+				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2225%22%2C%22helperGroupId%22%3A3%7D"
 			}
 					]
 	},
@@ -261,7 +257,7 @@
 		"url":"//feedback.taobao.com/pc/feedbacks?productId=248&source=Web_sell发布",
 		"link":"//survey.taobao.com/survey/4w425PeS2"
 							      ,"goBack":{
-				        "url":"/auction/container/page_switch.htm?v=old&isEdit=true&itemId=565566513374&isAuc=false",
+				        "url":"/auction/container/page_switch.htm?v=old&isEdit=true&itemId=565892411255&isAuc=false",
         "confirm": true,
         "content":"返回旧版，将不支持以下功能：<br/>批量设置价格库存，保存草稿，当前操作提示，宝贝规格的自定义，颜色支持备注等功能"
 				      }
@@ -310,7 +306,7 @@
     "readonly": false,
     "async": {
         "check": {
-            "uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=213002&itemId=565566513374&module=title",
+            "uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=50006079&itemId=565892411255&module=title",
             "type": "get",
             "param": {"value": "$data('title')"}
         }
@@ -324,7 +320,7 @@
 	"readonly": false,	"maxLength": 150,
 	"async": {
 		"check": {
-			"uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=213002&itemId=565566513374&module=subTitle",
+			"uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=50006079&itemId=565892411255&module=subTitle",
 			"type": "get",
 			"param": {
 				"value": "$data('subTitle')"
@@ -341,7 +337,7 @@
 	"label": "宝贝属性",
 	"type": "props",
 	"info": [
-		    {"type": "block","text": "错误填写宝贝属性，可能会引起宝贝下架或搜索流量减少，影响您的正常销售，请认真准确填写！","pos": "top"}
+		    {"type": "block","text": "错误填写宝贝属性，可能会引起宝贝下架或搜索流量减少，影响您的正常销售，请认真准确填写！<span style='margin-left: 8px;display: inline-block;'><img src='http://img.daily.taobaocdn.net/tps/TB1J9h9XEw7LKJjyzdKXXaShXXa-32-32.png' style='height: 18px;float: left;margin-right: 4px;'><a href='https://cpv.taobao.com/report/categoryPropertyIssueReport.htm'>商品属性问题反馈</a></span>","pos": "top"}
 		  ],
 	"items":
 	[
@@ -356,346 +352,897 @@
                                                     {
                             "id": "prop_20000",
     "label": "品牌",
-            "custom":{
-            "maxSize":1,
-            "maxLength":28
-        },
                 "info":[
             {
                 "type": "embed",
-                "text": "未找到需要的品牌，<a href='//baike.taobao.com/brandApply.htm?catId=213002' data-stat='/mjzx.55.4' target='_blank'>点此申请</a>"
+                "text": "未找到需要的品牌，<a href='//baike.taobao.com/brandApply.htm?catId=50006079' data-stat='/mjzx.55.4' target='_blank'>点此申请</a>"
             }
         ],
             "async": {
-                
-                                        "optionQuery":{
+                            "subProps": {
+                "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                "type": "get",
+                "param": {
+                    "catId": "50006079",
+                    "pid": "20000",
+                    "data":"$data('prop_20000')",
+                                        "module": "subProps"
+                }
+            }
+        
+                            ,            "optionQuery":{
                 "uri":"/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
                 "type":"get",
                 "param":{
                     "pid":"20000",
-                    "catId": "213002",
+                    "catId": "50006079",
                                         "module":"query"
                 },
                 "modes":["search", "more"]            }
-                            ,"check":{
+                    
+                
+            },
+
+            "required": true,
+    
+            "isKeyProp":true,
+                                "type": "combobox",
+                                                "options":[         {
+        "value": "201132996",
+        "text": "21st scooter"
+                        ,"async": {
+                            "subProps": {
                     "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
                     "type": "get",
                     "param": {
-                        "catId": "213002",
-                        "pid": "20000",
-                        "data":"$data('prop_20000')",
-                        "module": "brandAuth"
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"201132996",
+                                                "module": "subProps"
                     }
                 }
-                    
+                    }
+            }
+      ,     {
+        "value": "27259",
+        "text": "AB"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"27259",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "1339086394",
+        "text": "ADORBLEDI/萌迪"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"1339086394",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "985842622",
+        "text": "ASKMY"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"985842622",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "3601398",
+        "text": "AULDEY/奥迪双钻"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"3601398",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "934572805",
+        "text": "Aqize/阿奇泽"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"934572805",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "3465718",
+        "text": "Auby/澳贝"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"3465718",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "1105122601",
+        "text": "BONICA/博尼迪卡"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"1105122601",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "909480545",
+        "text": "Bethel's home/伯特利之家"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"909480545",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "126010247",
+        "text": "Bulex"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"126010247",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "301704294",
+        "text": "CARTY PIG/卡蒂小猪"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"301704294",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "361700317",
+        "text": "CHROMATIC/六彩"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"361700317",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "1175832537",
+        "text": "CHROMEWHEELS"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"1175832537",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "16994963",
+        "text": "C派运动"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"16994963",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "11556819",
+        "text": "Dr．B/娃娃博士"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"11556819",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "778720272",
+        "text": "FLY OVER GOD/飞越神"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"778720272",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "806334459",
+        "text": "FLYING SPACE TIME/飞越时空"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"806334459",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "695274687",
+        "text": "FREEDARE/弗瑞登"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"695274687",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "660658958",
+        "text": "FSY/飞神鱼"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"660658958",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "11785333",
+        "text": "FURY ANIMALS"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"11785333",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "10948179",
+        "text": "GONGE"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"10948179",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "48630",
+        "text": "Howawa/好娃娃"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"48630",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "1391449185",
+        "text": "I/雨兴"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"1391449185",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "46872",
+        "text": "Inter Fun/智趣"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"46872",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "156372158",
+        "text": "JIANCHI"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"156372158",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "3494461",
+        "text": "JOY BOLD/金棒"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"3494461",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "299958041",
+        "text": "JOY－JOYTOWN/嘉嘉乐园"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"299958041",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "113087736",
+        "text": "Jdbug/捷弟巴客"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"113087736",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "46114361",
+        "text": "Kidzamo"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"46114361",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "28982",
+        "text": "L2"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"28982",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "142564872",
+        "text": "Letrel/乐哲"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"142564872",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "26705914",
+        "text": "L．A．Sports/洛城极限"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"26705914",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "940074351",
+        "text": "MAX ROVER"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"940074351",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "246136237",
+        "text": "MG/摩咕"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"246136237",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "3962265",
+        "text": "MIDUO"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"3962265",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "725204768",
+        "text": "MY LITTLE TOWN/我的小矮城"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"725204768",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "3804588",
+        "text": "Mesuca/麦斯卡"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"3804588",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "65254543",
+        "text": "Motion Partner/运动伙伴"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"65254543",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "1373925784",
+        "text": "N-KID/贵族牌"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"1373925784",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "940862999",
+        "text": "NUKied/纽奇"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"940862999",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "1144096932",
+        "text": "Nevesk/雷沃夏可"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"1144096932",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "35232433",
+        "text": "OUBIAO"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"35232433",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "42226",
+        "text": "Oyama/欧亚马"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"42226",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "246076473",
+        "text": "Papa’s＆Mama’s/帕玛"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"246076473",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "301654307",
+        "text": "Popois/炮炮兵"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"301654307",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "613670186",
+        "text": "QIANGCHI"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"613670186",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "110426889",
+        "text": "QITEYUE"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"110426889",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "111159516",
+        "text": "QQ太郎"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"111159516",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "829252230",
+        "text": "ROOESS/如诗"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"829252230",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+      ,     {
+        "value": "11707664",
+        "text": "Radio Flyer"
+                        ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50006079",
+                        "pid":"20000",
+                        "vid":"11707664",
+                                                "module": "subProps"
+                    }
+                }
+                    }
+            }
+    ]
+                    }
+                                  ,                     {
+                            "id": "prop_44134721",
+    "label": "型号",
+            "custom":{
+            "maxSize":1,
+            "maxLength":28
+        },
+                "async": {
+                            "subProps": {
+                "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                "type": "get",
+                "param": {
+                    "catId": "50006079",
+                    "pid": "44134721",
+                    "data":"$data('prop_44134721')",
+                                        "module": "subProps"
+                }
+            }
+        
+                
+                
+            },
+
+            "required": true,
+    
+            "isKeyProp":true,
+                                "type": "combobox",
+                                                "options":[    ]
+                    }
+                 
+                                            ]
+        }
+    
+        					,										    
+
+
+            {
+            "id": "wrap_31501",
+            "label": "玩具类型",
+            "type": "propWrap",
+            "items": [
+                                                    {
+                            "id": "prop_31501",
+    "label": "玩具类型",
+                "async": {
+                
+                
                 
             },
 
             "required": false,
     
-            "isKeyProp":true,
                                 "type": "combobox",
-                                                "options":[         {
-        "value": "1050380565",
-        "text": "1/3ALIFE 甘蔗族"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3354961",
-        "text": "724"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3473380",
-        "text": "7890"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "1007858808",
-        "text": "7·time"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3262137",
-        "text": "9010"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "1184588038",
-        "text": "A 家居"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3882903",
-        "text": "AAB"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "879104635",
-        "text": "ABITARE/巴瑞雅"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "6503976",
-        "text": "AIJIA"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "15425703",
-        "text": "AIMEILI"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "129853",
-        "text": "AIRLAND/雅兰"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "30463279",
-        "text": "ALLSKING"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "7718309",
-        "text": "AMPM"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "101182",
-        "text": "AMWAY/安利"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "152485061",
-        "text": "ASZUNE/艾苏恩"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3255343",
-        "text": "AY"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "96262879",
-        "text": "Aiuho/爱优活"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "923912506",
-        "text": "Artifact Times/神器时代"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "74613437",
-        "text": "Audiano/澳丹奴"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "320852549",
-        "text": "Avigers"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "101003",
-        "text": "A－FONTANE/雅芳婷"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "63555362",
-        "text": "BAMBOO IMPRESSION/竹印象"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "8852231",
-        "text": "BE BEAUTY"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "8032951",
-        "text": "BEBY"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "4282809",
-        "text": "BIOLIVING/百武西"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "1422009303",
-        "text": "BOWSLEEP"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "1052850680",
-        "text": "BRAVURA/芭洛维雅"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "113465078",
-        "text": "Bassi"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "29893095",
-        "text": "Bedremon/拜德莱梦"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3469821",
-        "text": "Bejirog/北极绒"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "109770593",
-        "text": "Bekvam"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "130149280",
-        "text": "Bemonst/贝梦思特"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "8461157",
-        "text": "Bestch/百思佳"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "632690852",
-        "text": "Beyond 1958"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "62171986",
-        "text": "Blissliving/布莉丝"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "153986969",
-        "text": "CABELLO/卡贝罗"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "686198055",
-        "text": "CAOIND/潮流年代"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "156047382",
-        "text": "CARESSING/可芮欣"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "213788730",
-        "text": "CASA LISA"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "5648025",
-        "text": "CDC"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3479422",
-        "text": "CHROME HEARTS"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "640868389",
-        "text": "CHYELA/采绎来"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "748390404",
-        "text": "COMDAISY/蒙黛喜"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "6449333",
-        "text": "CORY/可韵"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "91250981",
-        "text": "CRAFTHOLIC"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "844502560",
-        "text": "CRUX/南十字星"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "107315133",
-        "text": "Cape Lisa/卡贝丽莎"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "44309903",
-        "text": "Chevanie/圣·芳妮"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3914737",
-        "text": "Coati/小浣熊"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3330634",
-        "text": "Cogit"
-                        ,"async": {
-                    }
-            }
-    ]
+                                                "options":[    ]
                     }
                                 
                                             ]
@@ -719,7 +1266,6 @@
 
             "required": false,
     
-            "isKeyProp":true,
                 "type": "text"
             }
     
@@ -727,13 +1273,13 @@
 
 
             {
-            "id": "wrap_122216976",
-            "label": "抱枕枕靠类型",
+            "id": "wrap_5111535",
+            "label": "轮子个数",
             "type": "propWrap",
             "items": [
                                                     {
-                            "id": "prop_122216976",
-    "label": "抱枕枕靠类型",
+                            "id": "prop_5111535",
+    "label": "轮子个数",
                 "async": {
                 
                 
@@ -744,44 +1290,20 @@
     
                                 "type": "combobox",
                                                 "options":[         {
-        "value": "31762",
-        "text": "靠垫被"
+        "value": "105376",
+        "text": "2个"
                         ,"async": {
                     }
             }
       ,     {
-        "value": "15522088",
-        "text": "靠垫套/抱枕套"
+        "value": "131069",
+        "text": "3个"
                         ,"async": {
                     }
             }
       ,     {
-        "value": "46839465",
-        "text": "靠垫芯/抱枕芯"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "130671",
-        "text": "腰枕"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "130672",
-        "text": "手枕"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "130673",
-        "text": "男朋友枕"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "52349",
-        "text": "靠垫"
+        "value": "105377",
+        "text": "4个"
                         ,"async": {
                     }
             }
@@ -794,198 +1316,110 @@
         					,										    
 
 
-            {
-            "id": "wrap_20603",
-            "label": "图案",
-            "type": "propWrap",
-            "items": [
-                                                    {
-                            "id": "prop_20603",
-    "label": "图案",
+        {
+            "id": "prop_20017",
+    "label": "适用年龄",
                 "async": {
                 
-                
-                
-            },
-
-            "required": false,
-    
-                                "type": "combobox",
-                                                "options":[         {
-        "value": "104170033",
-        "text": "植物花卉"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "29452",
-        "text": "条纹"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "45571",
-        "text": "心形"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "14031880",
-        "text": "卡通动漫"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3222243",
-        "text": "几何图案"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "46649",
-        "text": "人物"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "40793",
-        "text": "风景"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "29454",
-        "text": "纯色"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "14863995",
-        "text": "其他/other"
-                        ,"async": {
-                    }
-            }
-    ]
-                    }
-                                
-                                            ]
-        }
-    
-        					,										    
-
-
-            {
-            "id": "wrap_20021",
-            "label": "外套材质",
-            "type": "propWrap",
-            "items": [
-                                                    {
-                            "id": "prop_20021",
-    "label": "外套材质",
-                "async": {
-                            "subProps": {
-                "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                "type": "get",
-                "param": {
-                    "catId": "213002",
-                    "pid": "20021",
-                    "data":"$data('prop_20021')",
-                                        "module": "subProps"
-                }
-            }
-        
                 
                 
             },
 
             "required": true,
     
-                                "type": "combobox",
-                                                "options":[         {
-        "value": "28346",
-        "text": "亚麻"
-                        ,"async": {
-                            "subProps": {
-                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                    "type": "get",
-                    "param": {
-                        "catId":"213002",
-                        "pid":"20021",
-                        "vid":"28346",
-                                                "module": "subProps"
-                    }
-                }
-                    }
-            }
-      ,     {
-        "value": "28349",
-        "text": "化纤"
+                "type": "pop_multiple",        "btnText":"设置",
+        "options":[         {
+        "value": "6684162",
+        "text": "2岁"
                         ,"async": {
                     }
             }
       ,     {
-        "value": "105255",
-        "text": "棉"
-                        ,"async": {
-                            "subProps": {
-                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                    "type": "get",
-                    "param": {
-                        "catId":"213002",
-                        "pid":"20021",
-                        "vid":"105255",
-                                                "module": "subProps"
-                    }
-                }
-                    }
-            }
-      ,     {
-        "value": "105207",
-        "text": "混纺"
+        "value": "27853279",
+        "text": "3岁"
                         ,"async": {
                     }
             }
       ,     {
-        "value": "28386",
-        "text": "蕾丝"
+        "value": "22046351",
+        "text": "4岁"
                         ,"async": {
                     }
             }
       ,     {
-        "value": "28354",
-        "text": "绸缎"
+        "value": "53269715",
+        "text": "5岁"
                         ,"async": {
                     }
             }
       ,     {
-        "value": "30084",
-        "text": "毛绒"
+        "value": "43931716",
+        "text": "6岁"
                         ,"async": {
                     }
             }
       ,     {
-        "value": "20213",
-        "text": "其他"
+        "value": "63473498",
+        "text": "7岁"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "56516980",
+        "text": "8岁"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "67034847",
+        "text": "9岁"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "103376806",
+        "text": "10岁"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "63474267",
+        "text": "11岁"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "15390308",
+        "text": "12岁"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "382692973",
+        "text": "13岁"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "19728828",
+        "text": "14岁"
                         ,"async": {
                     }
             }
     ]
                     }
-                                
-                                            ]
-        }
     
         					,										    
 
 
             {
-            "id": "wrap_6861561",
-            "label": "填充物",
+            "id": "wrap_11683430",
+            "label": "是否有导购视频",
             "type": "propWrap",
             "items": [
                                                     {
-                            "id": "prop_6861561",
-    "label": "填充物",
+                            "id": "prop_11683430",
+    "label": "是否有导购视频",
                 "async": {
                 
                 
@@ -996,184 +1430,14 @@
     
                                 "type": "combobox",
                                                 "options":[         {
-        "value": "105010",
-        "text": "海绵"
+        "value": "21528",
+        "text": "有"
                         ,"async": {
                     }
             }
       ,     {
-        "value": "6711020",
-        "text": "记忆棉"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "28349",
-        "text": "化纤"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "130682",
-        "text": "蚕丝"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "107821",
-        "text": "羽绒"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3279192",
-        "text": "棉花"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3304388",
-        "text": "冰晶"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3725180",
-        "text": "PP棉"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "14863995",
-        "text": "其他/other"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3289130",
-        "text": "竹炭"
-                        ,"async": {
-                    }
-            }
-    ]
-                    }
-                                
-                                            ]
-        }
-    
-        					,										    
-
-
-            {
-            "id": "wrap_20608",
-            "label": "风格",
-            "type": "propWrap",
-            "items": [
-                                                    {
-                            "id": "prop_20608",
-    "label": "风格",
-                "async": {
-                
-                
-                
-            },
-
-            "required": false,
-    
-                                "type": "combobox",
-                                                "options":[         {
-        "value": "43746",
-        "text": "欧式"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "29933",
-        "text": "田园"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "67956",
-        "text": "美式"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "76856228",
-        "text": "简约现代"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3228766",
-        "text": "地中海"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "4124514",
-        "text": "北欧"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "6465077",
-        "text": "东南亚"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "67958",
-        "text": "日式"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "100196",
-        "text": "韩式"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "100197",
-        "text": "中式"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "22487682",
-        "text": "复古怀旧"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "20213",
-        "text": "其他"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3782155",
-        "text": "法式"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "194068904",
-        "text": "工业风"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3291373",
-        "text": "英伦"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "132483",
-        "text": "民族风"
+        "value": "10010",
+        "text": "无"
                         ,"async": {
                     }
             }
@@ -1185,7 +1449,7 @@
     
         						]
 	,"async": {
-		"spu": { 						"uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8&catId=213002&module=spu",
+		"spu": { 						"uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8&catId=50006079&module=spu",
 			"type": "post",
 			"param": {}
 		}
@@ -1196,72 +1460,93 @@
 	"comid": "qualification",
 	"label": "商品资质",
 	"type": "qualification",
-	"disable": true,	"async":{
+	"disable": false,	"async":{
 		"getQualification": {
 			"uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
 			"type": "post",
 			"param": {
 				"type":"get",
-				"catId":"213002",
+				"catId":"50006079",
 				"module":"qualification",
-				"itemId":"565566513374"
+				"itemId":"565892411255"
 			}
-								}
+									,"condition":[
+								[
+											{
+							"id":"prop_20000",
+														"blist": []
+																				}
+									]
+							]
+					}
 			},
 	"items":[
-				]
-}
-                                        ,{
-	"id":"customize.support",
-	"label":"宝贝定制",
-	"type":"checkbox",
-	"dataType":"integer",
-	"isArray":true,
-	"dataStat":{"change":"/mjzx.55.32"},
-	"options":[
-		{
-			"value":1,
-			"text":"支持定制"
-		}
-	],
-	"info":[
-		{
-			"type":"help",
-			"text":"查看<a href='//taobaosell.bbs.taobao.com/detail.html?spm=a210m.7877990.0.0.46meL0&appId=23012&postId=2563531' target='_blank'>宝贝定制</a>详情"
-		}
-	]
-}
-,{
-	"id": "customize.frame",
-	"comid": "customize.frame",
-	"type": "frame",
-	"disable": true,	"items": [
-		{
-			"id":"customize.type",
-			"type":"select",
+				{
+			"id": "qualification.priority",
+			"type": "checkbox",
 			"dataType":"integer",
-			"label":"定制工具",
-			"readonly": true,
-			"options":[
-							{
-					"value":1,
-					"text":"图片传输"
+			"isArray": true,
+			"dataStat":{"change":"/mjzx.55.5"},
+			"options": [
+				{
+					"text": "填写以下信息有机会优先在PC和手淘端展现给买家",
+					"value": 1
 				}
-						]
-		}
-	],
-	"reactions":[
-		{
-			"condition":"$customize.support==1",
-			"action":{"disable":false}
+			]
 		},
 		{
-			"condition":"$customize.support!=1",
-			"action":{"disable":true}
+			"id": "priorityframe",
+			"type": "qualification",
+			"disable": true,			"items": [
+												{
+					"id":"qualification.var_org_auth_tri_c_code",
+					                    "type":"qualification_input",
+                    "maxLength":30,
+										"label":"3C证书编号",
+					"required":true,
+					"dataType": "string",
+										"info":[
+						{
+							"type":"simple_inline",
+							"text": "请输入3c认证证书编号"
+						}
+											]
+										,"async":{
+						"check": {
+							"uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+							"type": "post",
+							"param": {
+								"type":"check",
+								"catId":"50006079",
+								"module":"qualification",
+								"itemId":"565892411255"
+							}
+						}
+					}
+									}
+							],
+			"reactions": [
+				{
+					"condition": "include($qualification.priority,1)",
+					"action": {"disable": false}
+				},
+				{
+					"condition": "!include($qualification.priority,1)",
+					"action": {"disable": true}
+				}
+			]
 		}
-	]
+						,{
+			"type":"textinfo",
+			"text":"\u003Cfont color=\"#ff0000\"\u003E要求\u003C/font\u003E：\u003Cbr\u003E请如实填写3C认证编号，且保证3C证书有效且与您宝贝描述的型号相符；"
+		}
+						,{
+			"type":"greyinfo",
+			"text":"承诺以上信息为实际售卖的商品信息，淘宝网会定期对该信息进行抽查，如发现不符会受到相应处罚，查看\u003Ca href=\"http://bangpai.taobao.com/group/thread/14510882-304781888.htm\" target=\"_blank\"\u003E详细说明 &gt;&gt;\u003C/a\u003E"
+		}
+				]
 }
-                                        ,{
+                                                                                ,{
 	"id": "multiMedia",
 	"comid": "multiMedia",
 	"label": "电脑端宝贝图片",
@@ -1294,8 +1579,8 @@
 
 			"dataType": "object",
 		"interactiveId": "0",
-		"itemId": "565566513374",
-		"mainCategoryId": "122852001",
+		"itemId": "565892411255",
+		"mainCategoryId": "25",
 	
 "readonly": false,"dataStat": {"change":"/mjzx.55.12"}
 }
@@ -1689,7 +1974,7 @@
                     "uri": "/auction/container/get_data.htm?_input_charset=utf-8",
                     "type": "get",
                     "param":{
-                        "catId":"213002",
+                        "catId":"50006079",
                         "pid":"1627207",
                         "isSuggest":true,
                         "module":"colorSuggest"
@@ -1699,7 +1984,7 @@
                     "uri": "/auction/container/get_data.htm?_input_charset=utf-8",
                     "type": "get",
                     "param":{
-                        "catId":"213002",
+                        "catId":"50006079",
                         "pid":"1627207",
                         "isCheck":true,
                         "module":"colorSuggest"
@@ -1708,65 +1993,6 @@
             }
         }
     				}
-                ,			{
-                			"id": "prop_21433",
-			"label": "尺寸",
-			"required": false,
-            			"type":"sku_listbox",
-						"allowAlias": true,
-			"aliasTextLength": 30,
-			                        "custom":{
-                "maxSize":24,
-                "maxLength":30
-            },
-            			"options":
-			[
-									 				{
-					"value": 3229490,
-					"text": "40X40cm"
-				}
-			  , 				{
-					"value": 69261940,
-					"text": "45x45cm"
-				}
-			  , 				{
-					"value": 20071624,
-					"text": "50X50cm"
-				}
-			  , 				{
-					"value": 31867208,
-					"text": "55X55cm"
-				}
-			  , 				{
-					"value": 32623146,
-					"text": "60X60CM"
-				}
-			  , 				{
-					"value": 78055854,
-					"text": "65x65cm"
-				}
-			  , 				{
-					"value": 21401742,
-					"text": "70x70cm"
-				}
-			  , 				{
-					"value": 50910,
-					"text": "大号"
-				}
-			  , 				{
-					"value": 102497,
-					"text": "其他规格"
-				}
-			  , 				{
-					"value": 50908,
-					"text": "小号"
-				}
-			  , 				{
-					"value": 50909,
-					"text": "中号"
-				}
-						]
-				}
                 ,	
                 		{
 			"id": "sku",
@@ -1783,11 +2009,6 @@
 			 				{
 					"id": "prop_1627207",
 					"text": "颜色分类",
-					"required":false
-				}
-			  , 				{
-					"id": "prop_21433",
-					"text": "尺寸",
 					"required":false
 				}
 						],
@@ -1819,14 +2040,7 @@
 					"required": false
 									}
 																]
-						                                                                                                            			,"info": [
-				                {
-                	"type": "simple_inline",
-                	"text": "该类目下：颜色分类、尺寸，请全选或全不选，如果只选一部分则无法保存对应的价格和库存；库存为0的宝贝规格，在商品详情页不展示",
-                	"pos": "top"
-                }
-							]
-					}
+								}
 	]
 
 }
@@ -1846,7 +2060,7 @@
 			"disableAutoCount":true,
 			"async": {
 				"check": {
-					"uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=213002&module=price",
+					"uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=50006079&module=price",
 					"type": "get",
 					"param": {
 						"price": "$data('price')",
@@ -1895,7 +2109,7 @@
 			"action":{
 				"info":{
 					"id": "priceinfo",
-					"text":"本类目下，宝贝价格必须在3.00元-30000.00元之间",
+					"text":"本类目下，宝贝价格不能低于10.00元",
 					"disable": false
 				}
 			}
@@ -1916,7 +2130,7 @@
 			"id":"priceinfo",
 			"type":"simple_inline",
 												"disable":false,
-			"text":"本类目下，宝贝价格必须在3.00元-30000.00元之间"
+			"text":"本类目下，宝贝价格不能低于10.00元"
 					}
 					]
 	}
@@ -2146,7 +2360,39 @@
             }
         ],
         "disable": true     }
-                                                                                                        ,{
+                                                                    ,{
+    "id": "payMode.type",
+    "label": "付款模式",
+    "type": "radio",
+    "dataType":"integer",
+    "required": true,
+    "options": [
+        {
+            "value": 1,
+            "text": "一口价(普通交易模式)"
+        }
+                        ,{
+            "value": 2,
+            "text": "预售设置"
+        }
+                                    ]
+    }
+                ,{
+    "id": "preSale",
+        "type": "presale",
+    "dataType":"string",
+    "disable":true,    "preSaleType":1,    "reactions": [
+        {
+            "condition": "$stuffStatus==5&&$payMode.type==2",
+            "action": {"disable":false}
+        },
+        {
+            "condition": "$stuffStatus!=5||$payMode.type!=2",
+            "action": {"disable":true}
+        }
+    ]
+}
+                    ,{
 	"id": "video",
 	"label": "宝贝视频",
 	"type": "auctionVideo",
@@ -2194,7 +2440,7 @@
 			"uri": "/auction/container/get_data.htm",
 			"type": "get",
 			"param": {
-				"catId": "213002",
+				"catId": "50006079",
 				"index": "1",
 				"pageSize": "1",
 				"kw": "",
@@ -2205,7 +2451,7 @@
 			"uri": "/auction/container/get_data.htm",
 			"type": "get",
 			"param": {
-				"catId": "213002",
+				"catId": "50006079",
 				"tfsPath": "",
 				"module": "descModuleContent"
 			}
@@ -2214,7 +2460,7 @@
 			"uri": "/auction/container/get_data.htm",
 			"type": "post",
 			"param": {
-				"catId": "213002",
+				"catId": "50006079",
 				"module": "wapDescAutoGen",
 				"description":""
 			}
@@ -2223,8 +2469,8 @@
 			"uri":"/auction/container/get_data.htm?module=descBackup",
 			"type":"get",
 			"param":{
-				"catId":"213002",
-				"itemId":"565566513374",
+				"catId":"50006079",
+				"itemId":"565892411255",
 				"type":"pc"
 			}
 		}
@@ -2262,7 +2508,7 @@
 		"uri": "/auction/container/get_data.htm",
 		"type": "post",
 		"param": {
-			"catId": "213002",
+			"catId": "50006079",
 			"module": "wlDescAutoGen",
 			"description":""
 			}
@@ -2315,8 +2561,8 @@
 				"uri":"/auction/container/get_data.htm?module=descBackup",
 				"type":"get",
 				"param":{
-					"catId":"213002",
-					"itemId":"565566513374",
+					"catId":"50006079",
+					"itemId":"565892411255",
 					"type":"wl"
     			}
 			}
@@ -2396,17 +2642,7 @@
             "value": 1,
             "text":"使用物流配送"
         }
-                              ,         {
-            "value": 2,
-            "text":"使用电子交易凭证"
-        }
-            ]
-        ,"info":[
-        {
-            "type":"help",
-            "text":"线上交易，线下核销可以使用电子凭证，<a target='_blank' href='//taobaosell.bbs.taobao.com/detail.html?spm=a210m.7877990.0.0.PxSOCq&appId=23012&postId=2609000'>使用教程</a>"
-        }
-    ]
+                                ]
         }
     ,{	"id":"deliverSetting",
 	"type":"frame",
@@ -2511,6 +2747,11 @@
 					"isOverseas":""
 				}
 				, 				{
+					"value": 11407913640,
+					"text": "江苏徐州",
+					"isOverseas":""
+				}
+				, 				{
 					"value": 11330055180,
 					"text": "四川成都",
 					"isOverseas":""
@@ -2528,6 +2769,11 @@
 				, 				{
 					"value": 11347539390,
 					"text": "江苏苏州",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11414119540,
+					"text": "上海",
 					"isOverseas":""
 				}
 				, 				{
@@ -2625,10 +2871,15 @@
 					"text": "河北保定",
 					"isOverseas":""
 				}
+				, 				{
+					"value": 11416809090,
+					"text": "陕西西安",
+					"isOverseas":""
+				}
 										],
 			"expandText":{
-												"createTplUrl":"//wuliu.taobao.com/user/logis_tools.htm?tabSource=carriageTemplate&fromType=fromPublishNew&forceSellerPay=false&categoryid=213002",
-								"viewDetailUrl":"//wuliu.taobao.com/user/logis_tools.htm?tabSource=carriageTemplate&fromType=fromPublishNew&categoryid=213002",
+												"createTplUrl":"//wuliu.taobao.com/user/logis_tools.htm?tabSource=carriageTemplate&fromType=fromPublishNew&forceSellerPay=false&categoryid=50006079",
+								"viewDetailUrl":"//wuliu.taobao.com/user/logis_tools.htm?tabSource=carriageTemplate&fromType=fromPublishNew&categoryid=50006079",
 				"getTplUrl":"//delivery.taobao.com/detail/getTemplateByIdAndUserId.do?user_id=795343049"
 			},
 			"async": {
@@ -2637,7 +2888,7 @@
 					"type": "get",
 					"param": {
 						"id": "$deliverTemplate.value",
-						"catId": "213002"
+						"catId": "50006079"
 					}
 				}
 			},
@@ -2700,27 +2951,16 @@
 					}
 			]
 }        ,{
-	"id":"newEtc",
+	"id": "newEtc",
 	"errorEntry":"电子交易凭证",
-	"type":"etc",
-	"dataStat":{"onShow":"/mjzx.55.29"},
+	"type": "checkbox",
 	"info": [
 		{
 			"type": "block",
-			"text": "<B>电子交易凭证&nbsp;&nbsp;&nbsp;&nbsp;</B><a href='//ma.taobao.com/pkg/eticket.htm' data-stat='/mjzx.55.30' target='_blank'>电子凭证管理后台</a>&nbsp;&nbsp;&nbsp;<a href='//shanghu.bbs.taobao.com/list.html' data-stat='/mjzx.55.31' target='_blank'>了解详情</a>"
-		}
-	],
-	"reactions": [
-		{
-			"condition": "include($deliverWay, 2)",
-			"action": {"disable": false}
-		},
-		{
-			"condition": "!include($deliverWay, 2)",
-			"action": {"disable": true}
-		}
-			]
-	,"disable":true}
+			"text": "<B>电子交易凭证&nbsp;&nbsp;&nbsp;&nbsp;</B>您未开通电子凭证，<a href='//ma.taobao.com/seller/category_apply.htm' target='_blank'>申请开通</a>&nbsp;<a href='//shanghu.bbs.taobao.com/list.html' target='_blank'>了解详情</a>"
+						}
+	]
+}
     ]
         },
         {
@@ -2779,11 +3019,11 @@
 	],
 	"reactions": [
 				{
-			"condition": "$stuffStatus==6||($purchaseLocation.globalStock.stockType==2 && $departurePlace.isOverseas=='true')||include($customize.support,1)",
+			"condition": "$stuffStatus==6||($purchaseLocation.globalStock.stockType==2 && $departurePlace.isOverseas=='true')",
 			"action": {"disable": true}
 		},
 		{
-			"condition": "$stuffStatus!=6&&!include($customize.support,1)&&($purchaseLocation.isGlobalStock=='false'||$purchaseLocation.globalStock.stockType!=2 || $departurePlace.isOverseas!='true')&&$global.saType==1",
+			"condition": "$stuffStatus!=6&&($purchaseLocation.isGlobalStock=='false'||$purchaseLocation.globalStock.stockType!=2||$departurePlace.isOverseas!='true')&&$global.saType==1",
 			"action": {"disable": false,"value":[1]}
 		}
 			]
@@ -2802,11 +3042,11 @@
 	],
 	"reactions": [
 				{
-			"condition": "!include($customize.support,1)||$stuffStatus==6||($purchaseLocation.globalStock.stockType==2 && $departurePlace.isOverseas=='true')",
+			"condition": "$stuffStatus==6||($purchaseLocation.globalStock.stockType==2 && $departurePlace.isOverseas=='true')",
 			"action": {"disable": true}
 		},
 		{
-			"condition": "$stuffStatus!=6&&($purchaseLocation.isGlobalStock=='false'||$purchaseLocation.globalStock.stockType!=2 || $departurePlace.isOverseas!='true')&&$global.saType==2||include($customize.support,1)",
+			"condition": "$stuffStatus!=6&&($purchaseLocation.isGlobalStock=='false'||$purchaseLocation.globalStock.stockType!=2 || $departurePlace.isOverseas!='true')&&$global.saType==2",
 			"action": {"disable": false,"value":[2]}
 		}
 			]
@@ -2824,15 +3064,15 @@
 	],
 	"reactions": [
 		        {
-			"condition": "!include($customize.support,1)&&($purchaseLocation.isGlobalStock=='false'||$purchaseLocation.globalStock.stockType!= 2 || $departurePlace.isOverseas=='true')&&($stuffStatus==6||$global.saType==3)",
+        	"condition": "($purchaseLocation.isGlobalStock=='false'||$purchaseLocation.globalStock.stockType!= 2|| $departurePlace.isOverseas=='true')&&($stuffStatus==6||$global.saType==3)",
         	"action": {"disable": false,"value":[3]}
         },
         {
-        	"condition": "!include($customize.support,1)&&$purchaseLocation.globalStock.stockType==2 && $departurePlace.isOverseas == 'true'",
+        	"condition": "$purchaseLocation.globalStock.stockType==2 && $departurePlace.isOverseas == 'true'",
         	"action": {"disable": false,"value":[0]}
         },
 		{
-			"condition": "$stuffStatus!=6&&($purchaseLocation.isGlobalStock=='false'||$purchaseLocation.globalStock.stockType!= 2 || $departurePlace.isOverseas!='true')&&$global.saType!=3||include($customize.support,1)",
+			"condition": "$stuffStatus!=6&&($purchaseLocation.isGlobalStock=='false'||$purchaseLocation.globalStock.stockType!= 2 || $departurePlace.isOverseas!='true')&&$global.saType!=3",
 			"action": {"disable": true}
 		}
 			]
@@ -3232,10 +3472,12 @@
 				  , 				11313796940
 				  , 				11331516030
 				  , 				11387831900
+				  , 				11407913640
 				  , 				11330055180
 				  , 				10470194700
 				  , 				11325626770
 				  , 				11347539390
+				  , 				11414119540
 				  , 				11328430750
 				  , 				11341667310
 				  , 				11325992830
@@ -3255,6 +3497,7 @@
 				  , 				11325584950
 				  , 				11353182730
 				  , 				11335567390
+				  , 				11416809090
 										]
 					},
 		"withholding":{
@@ -3383,29 +3626,34 @@
 	"description": "库存计数方式",
 	"enum":[0,1]
 }
-,"customize": {
-	"type": "object",
-	"description": "宝贝定制",
-	"properties":{
-		"support":{
-			"type":"array",
-			"description": "支持定制",
-			"items":{
-				"type":"integer",
-				"enum":[1]
-			}
-		},
-		"type": {
-			"type": "integer",
-			"description": "定制工具类型",
-			"enum":[1]
-		}
-	},
-	"additionalProperties":false
-}
 		    			    
 , "prop_20000": {
 	"description": "品牌",
+			"oneOf": [
+		{ "type": "string" },
+		{ 	"type": "object",
+    "required":[
+        "value"
+    ],
+	"properties": {
+				"value": {
+			"description": "属性值ID",
+			"oneOf": [
+				{ "type": "integer" },
+				{ "type": "string", "pattern": "^[-]{0,1}\\d+$" }
+			]
+		},
+		"text": {
+			"type": "string"
+		}
+	}
+ }
+	]
+			}
+
+				    
+, "prop_31501": {
+	"description": "玩具类型",
 			"oneOf": [
 		{ "type": "string" },
 		{ 	"type": "object",
@@ -3454,8 +3702,8 @@
 			}
 
 				    
-, "prop_122216976": {
-	"description": "抱枕枕靠类型",
+, "prop_5111535": {
+	"description": "轮子个数",
 			"oneOf": [
 		{ "type": "string" },
 		{ 	"type": "object",
@@ -3479,11 +3727,13 @@
 			}
 
 				    
-, "prop_20603": {
-	"description": "图案",
-			"oneOf": [
-		{ "type": "string" },
-		{ 	"type": "object",
+, "prop_20017": {
+	"description": "适用年龄",
+											"type": "array",
+            "items": {
+				"oneOf": [
+					{ "type": "string" },
+					{ 	"type": "object",
     "required":[
         "value"
     ],
@@ -3500,62 +3750,13 @@
 		}
 	}
  }
-	]
+				]
+			}
 			}
 
 				    
-, "prop_20021": {
-	"description": "外套材质",
-			"oneOf": [
-		{ "type": "string" },
-		{ 	"type": "object",
-    "required":[
-        "value"
-    ],
-	"properties": {
-				"value": {
-			"description": "属性值ID",
-			"oneOf": [
-				{ "type": "integer" },
-				{ "type": "string", "pattern": "^[-]{0,1}\\d+$" }
-			]
-		},
-		"text": {
-			"type": "string"
-		}
-	}
- }
-	]
-			}
-
-				    
-, "prop_6861561": {
-	"description": "填充物",
-			"oneOf": [
-		{ "type": "string" },
-		{ 	"type": "object",
-    "required":[
-        "value"
-    ],
-	"properties": {
-				"value": {
-			"description": "属性值ID",
-			"oneOf": [
-				{ "type": "integer" },
-				{ "type": "string", "pattern": "^[-]{0,1}\\d+$" }
-			]
-		},
-		"text": {
-			"type": "string"
-		}
-	}
- }
-	]
-			}
-
-				    
-, "prop_20608": {
-	"description": "风格",
+, "prop_11683430": {
+	"description": "是否有导购视频",
 			"oneOf": [
 		{ "type": "string" },
 		{ 	"type": "object",
@@ -3625,39 +3826,6 @@
 		}
 	}
 }
-   	    
-, "prop_21433": {
-	"description": "尺寸",
-											"type": "array",
-            "items": {
-				"oneOf": [
-					{ "type": "string" },
-					{ 	"type": "object",
-    "required":[
-        "value"
-    ],
-	"properties": {
-				"alias": {
-			"description": "自定义别名",
-			"type": "string",
-			"maxLength": 30
-		},
-			"value": {
-			"description": "属性值ID",
-			"oneOf": [
-				{ "type": "integer" },
-				{ "type": "string", "pattern": "^[-]{0,1}\\d+$" }
-			]
-		},
-		"text": {
-			"type": "string"
-		}
-	}
- }
-				]
-			}
-			}
-
 
 
 
@@ -3717,31 +3885,11 @@
 						}
 					}
 				}
-								,"prop_21433": {
-					"type": "object",
-					"description": "尺寸",
-					"properties": {
-						"value": {
-                            "description": "属性值ID",
-                            "oneOf": [
-                                {   "type": "integer"   },
-                                {   "type": "string",   "pattern": "^[-]{0,1}\\d+$" }
-                            ]
-                        },
-						"text": {
-							"type": "string"
-						}
-					}
-				}
 							}
 		}
 	]
 }
-		    		    ,"newEtc":{
-    "type":"object",
-    "description": "电子交易凭证"
-}
-		    		        ,"departurePlace": {
+		    		    		    		        ,"departurePlace": {
         "type": "object",
         "oneOf": [
             {
@@ -3855,6 +4003,10 @@
 				}
 			}
 		}
+				,"preSale": {
+			"type":"string",
+			"description": "预售设置"
+		}
 												,"legalCustoms":{
         	"type":"integer",
         	"description": "报关方式"
@@ -3884,36 +4036,38 @@
 		}
 	},
 	"required":[    "catId","price","quantity","startTime","stuffStatus" ,"deliverWay"
-,"title","multiMedia"                                                 					,"prop_20021"
-		                              ],
+,"title","multiMedia"             					,"prop_20000"
+		                                        					,"prop_20017"
+		             ,"payMode"
+],
 	"additionalProperties": false
 }                     ,         "extraData":     {
     "version":{
         "value": 1
     }
             ,"title":{
-        "value":"可爱卡通腰垫抱枕办公室护腰车用靠背枕椅子沙发床上睡眠靠垫四季"
+        "value":"滑板车儿童3-6-14岁小孩2三四轮折叠闪光踏板车滑滑车玩具"
     }
          ,"stuffStatus":{
         "value":5
     }
                         ,"price":{
-            "value":35.9
+            "value":79.0
         }
                     ,"quantity":{
-        "value":46582
+        "value":25998
     }
                     ,"multiMedia.image":{
-        "value":[{"url":"https://img.alicdn.com/imgextra/i1/1658438120/TB2bDvjaYH8F1JjSspoXXXWYXXa_!!1658438120.jpg","major":true,"position":0},{"url":"https://img.alicdn.com/imgextra/i3/1658438120/TB1pnUyh8TH8KJjy0FiXXcRsXXa_!!0-item_pic.jpg","major":false,"position":1},{"url":"https://img.alicdn.com/imgextra/i4/1658438120/TB2pRkLXBvBIuJjSszdXXXY0VXa_!!1658438120.jpg","major":false,"position":2},{"url":"https://img.alicdn.com/imgextra/i3/1658438120/TB2pEyeeMMPMeJjy1XbXXcwxVXa_!!1658438120.jpg","major":false,"position":3}]
+        "value":[{"url":"https://img.alicdn.com/imgextra/i3/795343049/TB29ar_c49YBuNjy0FfXXXIsVXa_!!795343049.jpg","major":true,"position":0},{"url":"https://img.alicdn.com/imgextra/i2/795343049/TB2FILraCMmBKNjSZTEXXasKpXa_!!795343049.jpg","major":false,"position":1},{"url":"https://img.alicdn.com/imgextra/i1/795343049/TB2FQ6Vc29TBuNjy1zbXXXpepXa_!!795343049.jpg","major":false,"position":2},{"url":"https://img.alicdn.com/imgextra/i3/795343049/TB2BkvMaEOWBKNjSZKzXXXfWFXa_!!795343049.jpg","major":false,"position":3}]
     }
                 ,"video":{
         "value": []
     }
             ,"descForPC":{
-                    "value":"\u003Cimg class=\"desc_anchor\" id=\"desc-module-1\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.gif%23 %3F%3D%20 %2B/spaceball.gif\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.jpg%23 %3F%3D%20 %2B/TB2wo6sa3D8F1Jjy0FoXXbcmVXa_!!1658438120.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.jpg%23 %3F%3D%20 %2B/TB2qqYoaYH8F1JjSspoXXXWYXXa_!!1658438120.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.jpg%23 %3F%3D%20 %2B/TB2SkYUa0qgF1JjSsppXXaBNXXa_!!1658438120.jpg\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-2\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.gif%23 %3F%3D%20 %2B/spaceball.gif\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.jpg%23 %3F%3D%20 %2B/TB2vcrRa5afF1Jjy1zcXXcu5XXa_!!1658438120.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.jpg%23 %3F%3D%20 %2B/TB2h9zOa5GfF1Jjy0FjXXXZdVXa_!!1658438120.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.jpg%23 %3F%3D%20 %2B/TB2IoDPaZSfF1JjSszeXXbqspXa_!!1658438120.jpg\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-3\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.gif%23 %3F%3D%20 %2B/spaceball.gif\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.jpg%23 %3F%3D%20 %2B/TB2a__Oa5GfF1Jjy0FjXXXZdVXa_!!1658438120.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.jpg%23 %3F%3D%20 %2B/TB2x7LNa.ifF1JjSspdXXclLpXa_!!1658438120.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.jpg%23 %3F%3D%20 %2B/TB2KNvTaZSfF1JjSspbXXcSkVXa_!!1658438120.jpg\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-4\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_F8KdC6Bje9CgJ8C09rak6_!!795343049.gif%23 %3F%3D%20 %2B/spaceball.gif\"\u003E\u003Cbr\u003E"
+                    "value":"\u003Cimg class=\"desc_anchor\" id=\"desc-module-1\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.gif%23 %3F%3D%20 %2B/spaceball.gif\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB26h9tq3FkpuFjSspnXXb4qFXa_!!2843866294.jpg\" style=\"line-height:1.5;\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-2\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.gif%23 %3F%3D%20 %2B/spaceball.gif\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2BeyGbWLN8KJjSZFKXXb7NVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB20i5Xbjgy_uJjSZLeXXaPlFXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB22qN5bkfb_uJkHFNRXXc3vpXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2Iseaf4TI8KJjSspiXXbM4FXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2qYCOf26H8KJjSspmXXb2WXXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2i7OwbGzB9uJjSZFMXXXq4XXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2jb1mfZrI8KJjy0FhXXbfnpXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2eiGuf4HI8KJjy1zbXXaxdpXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2Gj9sfZjI8KJjSsppXXXbyVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB255nVdyqAXuNjy1XdXXaYcVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-3\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.gif%23 %3F%3D%20 %2B/spaceball.gif\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2L0ywb0HO8KJjSZFLXXaTqVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB26Jx8bkfb_uJkSnb4XXXCrXXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2gNuJf22H8KJjy1zkXXXr7pXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2Yq5Ff3fH8KJjy1zcXXcTzpXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2guexb8fM8KJjSZFhXXcRyFXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2bed5bjgy_uJjSZSyXXbqvVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2r39Pf3DD8KJjy0FdXXcjvXXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2XqmBb2jM8KJjSZFyXXXdzVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2adKebkfb_uJkHFqDXXXVIVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-4\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.gif%23 %3F%3D%20 %2B/spaceball.gif\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2EWuBb2jM8KJjSZFyXXXdzVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2YBGvf3LD8KJjSszeXXaGRpXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2BIKKf2DH8KJjy1XcXXcpdXXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2gJSwb0HO8KJjSZFLXXaTqVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2BMcCeAfb_uJjSsrbXXb6bVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2Lg9bf_TI8KJjSsphXXcFppXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2R8iJf6nD8KJjSspbXXbbEXXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB26yKxf4rI8KJjy0FpXXb5hVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2for3bLal9eJjSZFzXXaITVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB29gcwbcic_eJjSZFnXXXVwVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2a0Wwb0HO8KJjSZFLXXaTqVXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-5\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.gif%23 %3F%3D%20 %2B/spaceball.gif\"\u003E\u003Cbr\u003E\u003Cimg alt=\"huabanche.jpg\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2RO_n5Yti21kv56I0vxVbROZY_!!795343049.jpg%23 %3F%3D%20 %2B/TB2g8CinlHH8KJjy0FbXXcqlpXa_!!2843866294.jpg\"\u003E\u003Cbr\u003E"
             }
             ,"location":{
-        "value":"浙江金华"
+        "value":"陕西西安"
     }
         
 ,"shopCats":{
@@ -3924,7 +4078,7 @@
     "value": ""
 }
 ,"outerId":{
-    "value":"557054173497_1520518585450"
+    "value":"549607442629_1520774072781"
 }
         ,"purchaseLocation.isGlobalStock":{
         "value":"false"
@@ -3944,143 +4098,246 @@
 	                		,"prop_20000": {
 			"value":	
 								{
-		"value": "-1327",
+		"value": "29534",
 		        "remark":"",
 		"text":
-				"自主品牌"
+				"other/其他"
 		
 	}
 					}
-			                		,"prop_20021": {
+			                		,"prop_44134721": {
 			"value":	
 								{
-		"value": "20213",
+		"value": "-3030",
 		        "remark":"",
 		"text":
-				"其他"
+				"无"
 		
 	}
 					}
-			                                        ,"prop_1627207":{
-            "value":[
-                              	{
-		"value": "-11625",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i1/1658438120/TB2J6PgaYH8F1JjSspfXXarnXXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"灰色哈皮猴"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-11627",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i1/1658438120/TB27ljPa0qgF1JjSsppXXaBNXXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"青色哈皮猴"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-11626",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i1/1658438120/TB2Zs2Ra0GgF1JjSspeXXaZxVXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"棕色哈皮猴"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-11622",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i1/1658438120/TB2N9zQa0mgF1Jjy1XaXXcSEFXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"灰色愤怒猴"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-11624",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i4/1658438120/TB2B82OaZSfF1JjSszeXXbqspXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"青色愤怒猴"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-2320760",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i3/1658438120/TB2jJMXcrH9F1JjSZFBXXc9ZFXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"棕色愤怒猴"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-2320761",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i1/1658438120/TB2QuDNa0qgF1JjSsziXXXL.XXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"粉色龅牙兔"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-4936939",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i2/1658438120/TB2zeTNa0qgF1JjSsziXXXL.XXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"玫红龅牙兔"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-2320757",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i2/1658438120/TB2djbtX8PCIuJjSZPcXXccYFXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"蓝色欢心熊"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-2320758",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i1/1658438120/TB2bQjOa.yfF1Jjy0FiXXaCmFXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"棕色欢心熊"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-14172",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i4/1658438120/TB2E.bQa0mgF1Jjy1XaXXcSEFXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"卡其呆呆狗"
-                                ,"custom":true
-        	}
-              ,                	{
-		"value": "-3832816",
-                    "imgUrl":"https://img.alicdn.com/imgextra/i3/1658438120/TB2LuH1crL9F1JjSZFwXXcSuVXa_!!1658438120.jpg",
-                            "remark":"",
-        		"text":"灰色忧忧狗"
-                                ,"custom":true
-        	}
-                         ]
-        }
-            	                		,"prop_21433": {
+			                		,"prop_20017": {
 			"value":	
 							[
 																	{
-		"value": "50910",
-				"alias":"",
-		"imgUrl":"",
+		"value": "27853279",
 		        "remark":"",
 		"text":
-				"大号"
+				"3岁"
+		
+	}
+					,							{
+		"value": "22046351",
+		        "remark":"",
+		"text":
+				"4岁"
+		
+	}
+					,							{
+		"value": "53269715",
+		        "remark":"",
+		"text":
+				"5岁"
 		
 	}
 									]
 					}
-			
+			                                        ,"prop_1627207":{
+            "value":[
+                              	{
+		"value": "-18258731",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i3/2843866294/TB2OkV0lTTI8KJjSsphXXcFppXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（绿色）"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-18258732",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i2/2843866294/TB2B3znXjgy_uJjSZJnXXbuOXXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（粉色）"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-18258733",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i3/2843866294/TB25ngSaIbI8KJjy1zdXXbe1VXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（蓝色）"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-18258734",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i3/2843866294/TB29BgWaMvD8KJjy0FlXXagBFXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（酷黑）"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19779295",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i2/2843866294/TB27qDunIrI8KJjy0FhXXbfnpXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（涂鸦）"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-18258735",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i4/2843866294/TB2rHHSbtLO8KJjSZFxXXaGEVXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（街舞）"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19779296",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i4/2843866294/TB2aWPunIrI8KJjy0FhXXbfnpXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"折叠（涂鸦）"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-18258736",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i2/2843866294/TB2yNnFe22H8KJjy0FcXXaDlFXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"折叠（街舞）"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19791548",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i4/2843866294/TB2GdHsXTlYBeNjSszcXXbwhFXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"折叠（精灵）"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19394817",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i2/2843866294/TB2wOP0e4PI8KJjSspfXXcCFXXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（粉色）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19394818",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i1/2843866294/TB2uOnqe8fH8KJjy1XbXXbLdXXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（酷黑）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19394816",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i1/2843866294/TB2ID46d63z9KJjy0FmXXXiwXXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（蓝色）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19394819",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i4/2843866294/TB2DE61e6nD8KJjSspbXXbbEXXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（街舞）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19394821",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i4/2843866294/TB254uff46I8KJjSszfXXaZVXXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（忍者）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19394820",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i2/2843866294/TB2GhaKf2DH8KJjy1XcXXcpdXXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（奇幻）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19394822",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i2/2843866294/TB2XkmrfZnI8KJjSspeXXcwIpXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"拆卸（异想）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19394824",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i1/2843866294/TB2nZnAe_nI8KJjSszbXXb4KFXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"折叠（酷黑）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19394826",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i4/2843866294/TB2jPj1e2DH8KJjy1XcXXcpdXXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"折叠（蓝色）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-19394825",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i4/2843866294/TB2Fqr6e_nI8KJjy0FfXXcdoVXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"折叠（粉色）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-18447659",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i1/2843866294/TB29U0Zb4k98KJjSZFoXXXS6pXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"折叠（奇幻）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-18447660",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i4/2843866294/TB2mSauf8TH8KJjy0FiXXcRsXXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"折叠（异想）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-18447661",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i4/2843866294/TB27pDgaQfb_uJjSsD4XXaqiFXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"折叠（街舞）+音乐灯光"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-18447662",
+                    "imgUrl":"https://img.alicdn.com/imgextra/i1/2843866294/TB2OPGCfZbI8KJjy1zdXXbe1VXa_!!2843866294.jpg",
+                            "remark":"",
+        		"text":"折叠（忍者）+音乐灯光"
+                                ,"custom":true
+        	}
+                         ]
+        }
+            	
         
 
+            ,"subProp_20000_0":{
+            "value":"无"
+        }
     
 		,"prop_1627207_img":{
 		"value":{
-								"-11625":"https://img.alicdn.com/imgextra/i1/1658438120/TB2J6PgaYH8F1JjSspfXXarnXXa_!!1658438120.jpg"
-						 ,			"-11627":"https://img.alicdn.com/imgextra/i1/1658438120/TB27ljPa0qgF1JjSsppXXaBNXXa_!!1658438120.jpg"
-						 ,			"-11626":"https://img.alicdn.com/imgextra/i1/1658438120/TB2Zs2Ra0GgF1JjSspeXXaZxVXa_!!1658438120.jpg"
-						 ,			"-11622":"https://img.alicdn.com/imgextra/i1/1658438120/TB2N9zQa0mgF1Jjy1XaXXcSEFXa_!!1658438120.jpg"
-						 ,			"-11624":"https://img.alicdn.com/imgextra/i4/1658438120/TB2B82OaZSfF1JjSszeXXbqspXa_!!1658438120.jpg"
-						 ,			"-2320760":"https://img.alicdn.com/imgextra/i3/1658438120/TB2jJMXcrH9F1JjSZFBXXc9ZFXa_!!1658438120.jpg"
-						 ,			"-2320761":"https://img.alicdn.com/imgextra/i1/1658438120/TB2QuDNa0qgF1JjSsziXXXL.XXa_!!1658438120.jpg"
-						 ,			"-4936939":"https://img.alicdn.com/imgextra/i2/1658438120/TB2zeTNa0qgF1JjSsziXXXL.XXa_!!1658438120.jpg"
-						 ,			"-2320757":"https://img.alicdn.com/imgextra/i2/1658438120/TB2djbtX8PCIuJjSZPcXXccYFXa_!!1658438120.jpg"
-						 ,			"-2320758":"https://img.alicdn.com/imgextra/i1/1658438120/TB2bQjOa.yfF1Jjy0FiXXaCmFXa_!!1658438120.jpg"
-						 ,			"-14172":"https://img.alicdn.com/imgextra/i4/1658438120/TB2E.bQa0mgF1Jjy1XaXXcSEFXa_!!1658438120.jpg"
-						 ,			"-3832816":"https://img.alicdn.com/imgextra/i3/1658438120/TB2LuH1crL9F1JjSZFwXXcSuVXa_!!1658438120.jpg"
+								"-18258731":"https://img.alicdn.com/imgextra/i3/2843866294/TB2OkV0lTTI8KJjSsphXXcFppXa_!!2843866294.jpg"
+						 ,			"-18258732":"https://img.alicdn.com/imgextra/i2/2843866294/TB2B3znXjgy_uJjSZJnXXbuOXXa_!!2843866294.jpg"
+						 ,			"-18258733":"https://img.alicdn.com/imgextra/i3/2843866294/TB25ngSaIbI8KJjy1zdXXbe1VXa_!!2843866294.jpg"
+						 ,			"-18258734":"https://img.alicdn.com/imgextra/i3/2843866294/TB29BgWaMvD8KJjy0FlXXagBFXa_!!2843866294.jpg"
+						 ,			"-19779295":"https://img.alicdn.com/imgextra/i2/2843866294/TB27qDunIrI8KJjy0FhXXbfnpXa_!!2843866294.jpg"
+						 ,			"-18258735":"https://img.alicdn.com/imgextra/i4/2843866294/TB2rHHSbtLO8KJjSZFxXXaGEVXa_!!2843866294.jpg"
+						 ,			"-19779296":"https://img.alicdn.com/imgextra/i4/2843866294/TB2aWPunIrI8KJjy0FhXXbfnpXa_!!2843866294.jpg"
+						 ,			"-18258736":"https://img.alicdn.com/imgextra/i2/2843866294/TB2yNnFe22H8KJjy0FcXXaDlFXa_!!2843866294.jpg"
+						 ,			"-19791548":"https://img.alicdn.com/imgextra/i4/2843866294/TB2GdHsXTlYBeNjSszcXXbwhFXa_!!2843866294.jpg"
+						 ,			"-19394817":"https://img.alicdn.com/imgextra/i2/2843866294/TB2wOP0e4PI8KJjSspfXXcCFXXa_!!2843866294.jpg"
+						 ,			"-19394818":"https://img.alicdn.com/imgextra/i1/2843866294/TB2uOnqe8fH8KJjy1XbXXbLdXXa_!!2843866294.jpg"
+						 ,			"-19394816":"https://img.alicdn.com/imgextra/i1/2843866294/TB2ID46d63z9KJjy0FmXXXiwXXa_!!2843866294.jpg"
+						 ,			"-19394819":"https://img.alicdn.com/imgextra/i4/2843866294/TB2DE61e6nD8KJjSspbXXbbEXXa_!!2843866294.jpg"
+						 ,			"-19394821":"https://img.alicdn.com/imgextra/i4/2843866294/TB254uff46I8KJjSszfXXaZVXXa_!!2843866294.jpg"
+						 ,			"-19394820":"https://img.alicdn.com/imgextra/i2/2843866294/TB2GhaKf2DH8KJjy1XcXXcpdXXa_!!2843866294.jpg"
+						 ,			"-19394822":"https://img.alicdn.com/imgextra/i2/2843866294/TB2XkmrfZnI8KJjSspeXXcwIpXa_!!2843866294.jpg"
+						 ,			"-19394824":"https://img.alicdn.com/imgextra/i1/2843866294/TB2nZnAe_nI8KJjSszbXXb4KFXa_!!2843866294.jpg"
+						 ,			"-19394826":"https://img.alicdn.com/imgextra/i4/2843866294/TB2jPj1e2DH8KJjy1XcXXcpdXXa_!!2843866294.jpg"
+						 ,			"-19394825":"https://img.alicdn.com/imgextra/i4/2843866294/TB2Fqr6e_nI8KJjy0FfXXcdoVXa_!!2843866294.jpg"
+						 ,			"-18447659":"https://img.alicdn.com/imgextra/i1/2843866294/TB29U0Zb4k98KJjSZFoXXXS6pXa_!!2843866294.jpg"
+						 ,			"-18447660":"https://img.alicdn.com/imgextra/i4/2843866294/TB2mSauf8TH8KJjy0FiXXcRsXXa_!!2843866294.jpg"
+						 ,			"-18447661":"https://img.alicdn.com/imgextra/i4/2843866294/TB27pDgaQfb_uJjSsD4XXaqiFXa_!!2843866294.jpg"
+						 ,			"-18447662":"https://img.alicdn.com/imgextra/i1/2843866294/TB2OPGCfZbI8KJjy1zdXXbe1VXa_!!2843866294.jpg"
 					}
 	}
 	
@@ -4095,16 +4352,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-11625"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-18258731"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"273",
+								"price":"79.0",
+								"quantity":"1089",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4113,16 +4366,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-11627"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-18258732"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"56",
+								"price":"79.0",
+								"quantity":"764",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4131,16 +4380,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-11626"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-18258733"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"4564",
+								"price":"79.0",
+								"quantity":"909",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4149,16 +4394,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-11622"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-18258734"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"4720",
+								"price":"79.0",
+								"quantity":"1132",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4167,16 +4408,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-11624"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-19779295"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"4796",
+								"price":"89.0",
+								"quantity":"1867",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4185,16 +4422,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-2320760"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-18258735"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"4865",
+								"price":"89.0",
+								"quantity":"1057",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4203,16 +4436,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-2320761"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-19779296"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"4741",
+								"price":"109.0",
+								"quantity":"1950",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4221,16 +4450,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-4936939"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-18258736"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"4807",
+								"price":"109.0",
+								"quantity":"905",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4239,16 +4464,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-2320757"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-19791548"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"4462",
+								"price":"119.0",
+								"quantity":"2157",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4257,16 +4478,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-2320758"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-19394817"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"4098",
+								"price":"89.0",
+								"quantity":"1086",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4275,16 +4492,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-14172"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-19394818"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"4632",
+								"price":"89.0",
+								"quantity":"1287",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4293,16 +4506,166 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-3832816"
-                        }
-			    					    				    			    				    		,			    		{
-			    			"id":"prop_21433",
-                            "value":"50910"
+                            "value":"-19394816"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"35.9",
-								"quantity":"4568",
+								"price":"89.0",
+								"quantity":"769",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-19394819"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"99.0",
+								"quantity":"749",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-19394821"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"99.0",
+								"quantity":"1600",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-19394820"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"99.0",
+								"quantity":"638",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-19394822"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"99.0",
+								"quantity":"1843",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-19394824"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"109.0",
+								"quantity":"695",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-19394826"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"109.0",
+								"quantity":"0",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-19394825"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"109.0",
+								"quantity":"1189",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-18447659"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"119.0",
+								"quantity":"1179",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-18447660"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"119.0",
+								"quantity":"928",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-18447661"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"119.0",
+								"quantity":"1297",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-18447662"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"119.0",
+								"quantity":"908",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -4310,7 +4673,7 @@
 			]
 }
         ,"o2oPay.deposit":{
-    "value":35.9
+    "value":79.0
 }
         ,"payMode.type":{
 	"value": 1
@@ -4319,18 +4682,9 @@
 						"value":[1]
 				}
 	,"deliverTemplate": {
-		"value":11387837420
+		"value":11416809090
 	}
-        	,"newEtc":{
-		"value":{
-			"itemId":565566513374, 
-			"catId": 213002
-						,"o2oStatus":0
-									,"relatedStore":0
-						,"isEdit":true
-		}
-	}
-        	,"foodSafety.factoryName":{"value":""},
+                	,"foodSafety.factoryName":{"value":""},
     "foodSafety.factoryAddr": {"value":""},
     "foodSafety.factoryContact":{"value": ""},
     "foodSafety.ingredients":{"value": ""},
@@ -4344,13 +4698,7 @@
 	"value":[1]
 }
 
-        			    ,"customize.type":{
-		"value":{
-			"value": 1,
-			"text": "图片传输"
-		}
-    }
-		
+        
 	,"subStockType":{
 		"value": 1
 	}
@@ -4358,7 +4706,7 @@
 		"value": 0
 	}
 ,"startTime.settingTime": {
-    "nowTime":"1520518757103",
+    "nowTime":"1520774633058",
     "maxDateRange":"14",
                         		"value":""
 	}                                    

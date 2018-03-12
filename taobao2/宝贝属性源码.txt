@@ -1,0 +1,245 @@
+：</label>
+    	<span>
+    		<div id='J_module-property' class='module-property module-form '><div class='skin'>
+												<dl class='hint propertymsg'><dd>填错宝贝属性，可能会引起宝贝下架，影响您的正常销售。请认真准确填写</dd></dl>
+				<ul>
+					    											    				<li  data-brand=1   name='keySpus' >
+
+    					<label for='prop_20000' class=' label-title'> 品牌：</label>
+    					<span >
+    						<em>*</em>								        						<ul class='J_ul-single J_is-mainprop ul-select'>
+        							<li>
+        								<select name='cp_20000' id='prop_20000' class='keyPropClass' data-transtype='dropbox'>
+        									<option class='J_empty' value=''> </option>
+											    																																				        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:201132996' >21st scooter</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:27259' >AB</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:1339086394' >ADORBLEDI/萌迪</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:985842622' >ASKMY</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:3601398' >AULDEY/奥迪双钻</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:934572805' >Aqize/阿奇泽</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:3465718' >Auby/澳贝</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:1105122601' >BONICA/博尼迪卡</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:909480545' >Bethel's home/&#20271;&#29305;&#21033;&#20043;&#23478;</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:126010247' >Bulex</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:301704294' >CARTY PIG/卡蒂小猪</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:361700317' >CHROMATIC/六彩</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:1175832537' >CHROMEWHEELS</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:16994963' >C派运动</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:11556819' >Dr．B/娃娃博士</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:778720272' >FLY OVER GOD/飞越神</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:806334459' >FLYING SPACE TIME/飞越时空</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:695274687' >FREEDARE/弗瑞登</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:660658958' >FSY/飞神鱼</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:11785333' >FURY ANIMALS</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:10948179' >GONGE</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:48630' >Howawa/好娃娃</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:1391449185' >I/雨兴</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:46872' >Inter Fun/智趣</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:156372158' >JIANCHI</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:3494461' >JOY BOLD/金棒</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:299958041' >JOY－JOYTOWN/嘉嘉乐园</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:113087736' >Jdbug/捷弟巴客</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:46114361' >Kidzamo</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:28982' >L2</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:142564872' >Letrel/乐哲</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:26705914' >L．A．Sports/洛城极限</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:940074351' >MAX ROVER</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:246136237' >MG/摩咕</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:3962265' >MIDUO</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:725204768' >MY LITTLE TOWN/我的小矮城</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:3804588' >Mesuca/麦斯卡</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:65254543' >Motion Partner/运动伙伴</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:1373925784' >N-KID/贵族牌</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:940862999' >NUKied/纽奇</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:1144096932' >Nevesk/雷沃夏可</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:35232433' >OUBIAO</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:42226' >Oyama/欧亚马</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_father' value='20000:246076473' >Papa’s＆Mama’s/帕玛</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:301654307' >Popois/炮炮兵</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:613670186' >QIANGCHI</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:110426889' >QITEYUE</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:111159516' >QQ太郎</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:829252230' >ROOESS/如诗</option>        										                                                	                                                	
+                                                	                                                	                                                	
+        											<option class='J_other' value='20000:11707664' >Radio Flyer</option>        										
+    											        										        								</select>
+        							</li>
+    							</ul>
+															    						    						    						    						    												<div id='disableSpu' class='alert alert-error hidden'>不能发布或编辑此类宝贝，所属的宝贝模板已被屏蔽</div>
+									<input type='hidden' id='nav_spuId' data-feed='err_nav_spuId'/>
+		<div id='err_nav_spuId' style='display:none'></div>
+													</span>
+														<input type='hidden' id='nav_cp_20000' data-feed='err_NotNull_20000'/>
+		<div id='err_NotNull_20000'  style='display:none;' ></div>
+																																					    					                        													<dl class='hint propertymsg'><dd>如果没有您需要的品牌，您可以<a target='blank' href='//baike.taobao.com/brandApply.htm?catId=50006079'>点此申请添加品牌</a></dd></dl>
+												
+    																</li>
+																		<li id='J_product-check' style='display:none' >
+    								<label class='label-title' id='ariaby-prop_140654160'>信息确认：</label>
+    								<span class='product-check'>
+																				<!-- 发布默认选中check-->
+																																										    									<input type='checkbox' checked = 'checked' id='supConfirm' name='_fma.pu._0.s'
+											   data='1' value='1' isEdit = 'false'
+																							   		checked = 'checked'
+												    									 ></input>
+
+    									我明白平台会根据产品实际情况对左侧产品信息内容进行更新，并确定产品信息和
+    									<br>发布的商品信息完全一致，如发布成功，产品信息将展示在商品详情页。
+    									<br>不,
+    									<a href='/' id='baike_edit_url' target='_blank'  >我要纠错>></a>
+    								</span>
+							</li>
+						    				
+    										                                                						                            				<li   class='J_spu-property'  id='spu_31501' name='spus'>
+    					<label class='label-title'> 玩具类型：</label>
+    					<span >
+    						    	    		    						<ul class='J_ul-single ul-select'><li>
+							<select name='cp_31501' id='prop_31501' data-transtype='dropbox'>
+							      							<option value=''> </option>
+
+    								    																																</select>
+														</li></ul>
+    		    	    																							    					</span>
+								<input type='hidden' id='nav_cp_31501' data-feed='err_NotNull_31501'/>
+		<div id='err_NotNull_31501'  style='display:none;' ></div>
+																			    					    					    				</li>
+                        
+                    					
+    										                                                						                            				<li   class='J_spu-property'  id='spu_13021751' name='spus'>
+    					<label class='label-title'> 货号：</label>
+    					<span >
+    						    			    				<input type='text' maxlength='30'  id='prop_13021751' name='cp_13021751' class='text text-short ' value='' />
+			    	    																							    					</span>
+								<input type='hidden' id='nav_cp_13021751' data-feed='err_NotNull_13021751'/>
+		<div id='err_NotNull_13021751'  style='display:none;' ></div>
+																			    					    					    				</li>
+                        
+                    					
+    										                                                						                            				<li   class='J_spu-property'  id='spu_5111535' name='spus'>
+    					<label class='label-title'> 轮子个数：</label>
+    					<span >
+    						    	    		    						<ul class='J_ul-single ul-select'><li>
+							<select name='cp_5111535' id='prop_5111535' data-transtype='dropbox'>
+							      							<option value=''> </option>
+
+    								
+		
+			
+											                    		      													<option  value='5111535:105376' >2个</option>
+																				
+		
+			
+											                    		      													<option  value='5111535:131069' >3个</option>
+																				
+		
+			
+											                    		      													<option  value='5111535:105377' >4个</option>
+																				    																																</select>
+														</li></ul>
+    		    	    																							    					</span>
+								<input type='hidden' id='nav_cp_5111535' data-feed='err_NotNull_5111535'/>
+		<div id='err_NotNull_5111535'  style='display:none;' ></div>
+																			    					    					    				</li>
+                        
+                    					
+    										                                                						                            				<li   class='J_spu-property'  id='spu_20017' name='spus'>
+    					<label class='label-title'> 适用年龄：</label>
+    					<span >
+    						<em>*</em>    	    																											<ul class='J_ul-multi ul-checkbox'>
+												<li><input type='checkbox' name='cp_20017' value='20017:6684162' id='prop_20017' class='checkbox' /><label for='prop_20017_6684162'>2岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:27853279' id='prop_20017' class='checkbox' /><label for='prop_20017_27853279'>3岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:22046351' id='prop_20017' class='checkbox' /><label for='prop_20017_22046351'>4岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:53269715' id='prop_20017' class='checkbox' /><label for='prop_20017_53269715'>5岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:43931716' id='prop_20017' class='checkbox' /><label for='prop_20017_43931716'>6岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:63473498' id='prop_20017' class='checkbox' /><label for='prop_20017_63473498'>7岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:56516980' id='prop_20017' class='checkbox' /><label for='prop_20017_56516980'>8岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:67034847' id='prop_20017' class='checkbox' /><label for='prop_20017_67034847'>9岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:103376806' id='prop_20017' class='checkbox' /><label for='prop_20017_103376806'>10岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:63474267' id='prop_20017' class='checkbox' /><label for='prop_20017_63474267'>11岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:15390308' id='prop_20017' class='checkbox' /><label for='prop_20017_15390308'>12岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:382692973' id='prop_20017' class='checkbox' /><label for='prop_20017_382692973'>13岁</label></li>												<li><input type='checkbox' name='cp_20017' value='20017:19728828' id='prop_20017' class='checkbox' /><label for='prop_20017_19728828'>14岁</label></li>																							</ul>
+				    		    	    																							    					</span>
+								<input type='hidden' id='nav_cp_20017' data-feed='err_NotNull_20017'/>
+		<div id='err_NotNull_20017'  style='display:none;' ></div>
+																			    					    					    				</li>
+                        
+                    					
+    										                                                						                            				<li   class='J_spu-property'  id='spu_11683430' name='spus'>
+    					<label class='label-title'> 是否有导购视频：</label>
+    					<span >
+    						    	    		    						<ul class='J_ul-single ul-select'><li>
+							<select name='cp_11683430' id='prop_11683430' data-transtype='dropbox'>
+							      							<option value=''> </option>
+
+    								
+		
+			
+											                    		      													<option  value='11683430:21528' >有</option>
+																				
+		
+			
+											                    		      													<option  value='11683430:10010' >无</option>
+																				    																																</select>
+														</li></ul>
+    		    	    																							    					</span>
+								<input type='hidden' id='nav_cp_11683430' data-feed='err_NotNull_11683430'/>
+		<div id='err_NotNull_11683430'  style='display:none;' ></div>
+																			    					    					    				</li>
+                        
+                    					
+    									
+																				    			</ul>
+                                    		</div>
+				<div id='J_module-Qualification'></div></div>                <!--发布助手-->
+					<input type='hidden' id='nav_categoryProperty' data-feed='err_nav_categoryProperty'/>
+		<div id='err_nav_categoryProperty' style='display:none'></div>
+	    	</span>
+    </li>
+
+
+	
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+
+                                                                                        						
+<li data-robot-helper='0'>
+	<div id='itemtitle' class='fieldset'>
+		<label for='TitleID' class='caption required'>
