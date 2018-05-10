@@ -6,21 +6,21 @@
             		
 "type": "root",
 "global": {
-	"token": "eebd1756697",
-	"catId": 50002777,
-	"mainCatId":50008163,
+	"token": "88973be31496",
+	"catId": 50008950,
+	"mainCatId":50020485,
 	"userId": 795343049,
 	"isDaily": false,
 	"isEdit":true,
 		"submitUrl":"/auction/container/item_edit_upload.htm?_input_charset=utf-8&_output_charset=utf-8&submitType=ajax&isBbcItem=false",
-				"mscSaveUrl":"/auction/container/mscenter/editMscItem.htm?_input_charset=utf-8&_output_charset=utf-8&submitType=ajax&itemId=566037390552&catId=50002777",
+				"mscSaveUrl":"/auction/container/mscenter/editMscItem.htm?_input_charset=utf-8&_output_charset=utf-8&submitType=ajax&itemId=569230009791&catId=50008950",
 	"mscNameInputFlag": true,
-		"mscGetListUrl":"/auction/container/mscenter/getMscList.htm?_input_charset=utf-8&_output_charset=utf-8&submitType=ajax&itemId=566037390552&catId=50002777",
+		"mscGetListUrl":"/auction/container/mscenter/getMscList.htm?_input_charset=utf-8&_output_charset=utf-8&submitType=ajax&itemId=569230009791&catId=50008950",
 	"hideDraft": false,
-		"itemId":566037390552,
+		"itemId":569230009791,
 	"saType" : 1
 },
-"catPath": "类目：床上用品\u003E\u003E枕头/枕芯/保健枕/颈椎枕",
+"catPath": "类目：五金/工具\u003E\u003E仪器仪表\u003E\u003E测距仪",
 "canChangeCat":  true ,
 "title":"一口价宝贝发布", "assets":{
 	"domain":"upload.taobao.com",
@@ -40,11 +40,6 @@
 				"id":"title",
 				"text":"宝贝标题不能超过30个汉字（60个字符），宝贝的标题需要和当前宝贝的类目、属性一致",
 				"sourceId": 562
-			}
-						,{
-				"id":"subTitle",
-				"text":"卖点不能超过150个汉字，卖点用来介绍商品特点，吸引消费者购买，副标题内容不会在手机端展示，如涉及到交易重要信息，请补充在下方宝贝描述中",
-        "sourceId": 562
 			}
 									,{
 				"id":"props",
@@ -143,7 +138,12 @@
 				"text": "设置是否提供退换货承诺服务",
 				"sourceId": 578
 			}
-												,{
+									,{
+				"id": "vipDiscount",
+				"text": "设置宝贝是否参与会员打折",
+				"sourceId": 578
+			}
+									,{
 				"id":"customize.support",
 				"text":"如果选择了定制，使用图片传输，则详情页会在标题前自动加上定制标签"
 			}
@@ -239,19 +239,19 @@
 		"options":[
 						{
 				"comid":"title",
-				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2250008163%22%2C%22helperGroupId%22%3A0%7D"
+				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2250020485%22%2C%22helperGroupId%22%3A0%7D"
 			},
 			{
 				"comid":"saleProps",
-				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2250008163%22%2C%22helperGroupId%22%3A1%7D"
+				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2250020485%22%2C%22helperGroupId%22%3A1%7D"
 			},
 			{
 				"comid":"multiMedia",
-				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2250008163%22%2C%22helperGroupId%22%3A2%7D"
+				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2250020485%22%2C%22helperGroupId%22%3A2%7D"
 			}
 						,{
 				"comid":"deliverWay",
-				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2250008163%22%2C%22helperGroupId%22%3A3%7D"
+				"url":"//service.taobao.com/support/minerva/ajax/recommend_question_ajax.do?conditions=%7B%22categoryId%22%3A%2250020485%22%2C%22helperGroupId%22%3A3%7D"
 			}
 					]
 	},
@@ -261,7 +261,7 @@
 		"url":"//feedback.taobao.com/pc/feedbacks?productId=248&source=Web_sell发布",
 		"link":"//survey.taobao.com/survey/4w425PeS2"
 							      ,"goBack":{
-				        "url":"/auction/container/page_switch.htm?v=old&isEdit=true&itemId=566037390552&isAuc=false",
+				        "url":"/auction/container/page_switch.htm?v=old&isEdit=true&itemId=569230009791&isAuc=false",
         "confirm": true,
         "content":"返回旧版，将不支持以下功能：<br/>批量设置价格库存，保存草稿，当前操作提示，宝贝规格的自定义，颜色支持备注等功能"
 				      }
@@ -310,38 +310,18 @@
     "readonly": false,
     "async": {
         "check": {
-            "uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=50002777&itemId=566037390552&module=title",
+            "uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=50008950&itemId=569230009791&module=title",
             "type": "get",
             "param": {"value": "$data('title')"}
         }
     }
-    }                    ,{
-	"id": "subTitle",
-	"comid": "subTitle",
-	"label": "宝贝卖点",
-	"type": "textarea",
-	"dataType":"string",
-	"readonly": false,	"maxLength": 150,
-	"async": {
-		"check": {
-			"uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=50002777&itemId=566037390552&module=subTitle",
-			"type": "get",
-			"param": {
-				"value": "$data('subTitle')"
-			}
-		}
-	},
-	"info": [
-	{"type": "block","text": "宝贝卖点不在无线商品详情页中展示。【宝贝卖点即将下线】3月起，后台将关闭新发商品的宝贝卖点，请各位商家将内容装修在图文详情内","pos": "top"}
-	]
-}
-                    ,{
+    }                                        ,{
 	"comid": "props",
 	"id": "props",
 	"label": "宝贝属性",
 	"type": "props",
 	"info": [
-		    {"type": "block","text": "错误填写宝贝属性，可能会引起宝贝下架或搜索流量减少，影响您的正常销售，请认真准确填写！<span style='margin-left: 8px;display: inline-block;'><img src='http://img.daily.taobaocdn.net/tps/TB1J9h9XEw7LKJjyzdKXXaShXXa-32-32.png' style='height: 18px;float: left;margin-right: 4px;'><a href='https://cpv.taobao.com/report/categoryPropertyIssueReport.htm'>商品属性问题反馈</a></span>","pos": "top"}
+		    {"type": "block","text": "错误填写宝贝属性，可能会引起宝贝下架或搜索流量减少，影响您的正常销售，请认真准确填写！","pos": "top"}
 		  ],
 	"items":
 	[
@@ -356,20 +336,34 @@
                                                     {
                             "id": "prop_20000",
     "label": "品牌",
+            "custom":{
+            "maxSize":1,
+            "maxLength":28
+        },
                 "info":[
             {
                 "type": "embed",
-                "text": "未找到需要的品牌，<a href='//baike.taobao.com/brandApply.htm?catId=50002777' data-stat='/mjzx.55.4' target='_blank'>点此申请</a>"
+                "text": "未找到需要的品牌，<a href='//baike.taobao.com/brandApply.htm?catId=50008950' data-stat='/mjzx.55.4' target='_blank'>点此申请</a>"
             }
         ],
             "async": {
-                
-                                        "optionQuery":{
+                            "subProps": {
+                "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                "type": "get",
+                "param": {
+                    "catId": "50008950",
+                    "pid": "20000",
+                    "data":"$data('prop_20000')",
+                                        "module": "subProps"
+                }
+            }
+        
+                            ,            "optionQuery":{
                 "uri":"/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
                 "type":"get",
                 "param":{
                     "pid":"20000",
-                    "catId": "50002777",
+                    "catId": "50008950",
                                         "module":"query"
                 },
                 "modes":["search", "more"]            }
@@ -377,7 +371,7 @@
                     "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
                     "type": "get",
                     "param": {
-                        "catId": "50002777",
+                        "catId": "50008950",
                         "pid": "20000",
                         "data":"$data('prop_20000')",
                         "module": "brandAuth"
@@ -387,314 +381,820 @@
                 
             },
 
-            "required": true,
+            "required": false,
     
             "isKeyProp":true,
                                 "type": "combobox",
                                                 "options":[         {
-        "value": "1050380565",
-        "text": "1/3ALIFE 甘蔗族"
+        "value": "798418212",
+        "text": "AIMOTOOL"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"798418212",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1114584085",
-        "text": "10days"
+        "value": "20512499",
+        "text": "Aliyiqi"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"20512499",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "81358384",
-        "text": "32°LIFE"
+        "value": "8920636",
+        "text": "Apresys"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"8920636",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1185130131",
-        "text": "37度元素"
+        "value": "425462699",
+        "text": "BACHOFEN"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"425462699",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "88701839",
-        "text": "3HOME"
+        "value": "27189",
+        "text": "BOSE"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"27189",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "27961",
-        "text": "3M"
+        "value": "84823",
+        "text": "Bosma/博冠"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"84823",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "55804703",
-        "text": "66度浪漫"
+        "value": "45033099",
+        "text": "CHDD"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"45033099",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1007858808",
-        "text": "7·time"
+        "value": "6075345",
+        "text": "DCA"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"6075345",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "566330737",
-        "text": "90.GOGO"
+        "value": "3471536",
+        "text": "DEWALT"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"3471536",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "3262137",
-        "text": "9010"
+        "value": "529058304",
+        "text": "Derry/德锐"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"529058304",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "63194293",
-        "text": "9S8"
+        "value": "1247540420",
+        "text": "EDKORS/爱德克斯"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"1247540420",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "712056803",
-        "text": "A Little Love/小小爱"
+        "value": "7298073",
+        "text": "ELECALL"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"7298073",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1046820273",
-        "text": "A.m.b.e.r"
+        "value": "559348792",
+        "text": "EVERTE/埃维特"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"559348792",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1094572109",
-        "text": "ABINNI/艾彬尼"
+        "value": "877950991",
+        "text": "EXYOU/易赛优"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"877950991",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1226722513",
-        "text": "ABLE"
+        "value": "3509964",
+        "text": "FLUKE/福禄克"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"3509964",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "144818258",
-        "text": "ACEMILLIAN/艾丝米莲"
+        "value": "1281880401",
+        "text": "HACCURY"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"1281880401",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1035824405",
-        "text": "ADXN/艾迪馨妮"
+        "value": "20725900",
+        "text": "HANS﹒W/汉斯王"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"20725900",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "4350484",
-        "text": "AHILL/艾希尔"
+        "value": "47195277",
+        "text": "Hautine"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"47195277",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1044926840",
-        "text": "AI NI YI SHI/嗨2014"
+        "value": "109731377",
+        "text": "Hcjyet"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"109731377",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "6503976",
-        "text": "AIJIA"
+        "value": "58615113",
+        "text": "JVC/杰伟世"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"58615113",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "611202326",
-        "text": "AILOVO"
+        "value": "24912994",
+        "text": "KAPRO"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"24912994",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "129853",
-        "text": "AIRLAND/雅兰"
+        "value": "3520455",
+        "text": "KEYENCE"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"3520455",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "126037678",
-        "text": "AISE/艾莎"
+        "value": "3831929",
+        "text": "KOLIDA/科力达"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"3831929",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "123947185",
-        "text": "AIVO"
+        "value": "146983758",
+        "text": "KREVOR"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"146983758",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1408485129",
-        "text": "AK"
+        "value": "6099480",
+        "text": "LOSON/隆顺"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"6099480",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "155558419",
-        "text": "ALLOVE"
+        "value": "29821",
+        "text": "Laica/莱卡"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"29821",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "30463279",
-        "text": "ALLSKING"
+        "value": "277454039",
+        "text": "Laitz/徕兹"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"277454039",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1050736480",
-        "text": "ALPACA"
+        "value": "8220094",
+        "text": "LaoA"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"8220094",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "114810002",
-        "text": "AMAIN"
+        "value": "107566",
+        "text": "Leica/徕卡"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"107566",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1356479234",
-        "text": "AMIBONCEN/赞美邦辰"
+        "value": "9743645",
+        "text": "MasTech"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"9743645",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "966838541",
-        "text": "AMIGO/拉米高·家饰 拉米高家饰用品"
+        "value": "223288972",
+        "text": "MiLESEEY/迈测"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"223288972",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "101182",
-        "text": "AMWAY/安利"
+        "value": "116966449",
+        "text": "NOYAFA"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"116966449",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "28608553",
-        "text": "ANCHOW"
+        "value": "21465",
+        "text": "Nikon/尼康"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"21465",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "261124206",
-        "text": "ANDIAMON/安蝶梦"
+        "value": "21467",
+        "text": "Pentax/宾得"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"21467",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "690186829",
-        "text": "ANGEVIL/安格薇"
+        "value": "25871709",
+        "text": "Puxicoo"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"25871709",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "296910393",
-        "text": "AOLNDO/澳兰多"
+        "value": "17031745",
+        "text": "Rasger/镭仕奇"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"17031745",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1030922185",
-        "text": "AROCAYA"
+        "value": "1025106930",
+        "text": "SDB/史丹宝"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"1025106930",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1335410042",
-        "text": "ARPEGGIO/爱菲娇"
+        "value": "121898159",
+        "text": "SENLOD/顺来达"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"121898159",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "377144654",
-        "text": "ART CEDAR/雅意达"
+        "value": "80946",
+        "text": "SIEMENS/西门子"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"80946",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1437544251",
-        "text": "ARTEK"
+        "value": "926672662",
+        "text": "SIRUI/思锐仪器"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"926672662",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1003580009",
-        "text": "ARTFOREST/艺树森林"
+        "value": "60015505",
+        "text": "SKF/斯凯孚"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"60015505",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1475354255",
-        "text": "ASLITAH/爱绮梦"
+        "value": "22530155",
+        "text": "STABILA"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"22530155",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "152485061",
-        "text": "ASZUNE/艾苏恩"
+        "value": "105416",
+        "text": "STANLEY/史丹利"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"105416",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "542676888",
-        "text": "AURRAVI/澳拉维"
+        "value": "587884653",
+        "text": "SUNCHE"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"587884653",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "777450539",
-        "text": "AUSSIE WOOL QUILTS"
+        "value": "49499685",
+        "text": "SZBJ"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"49499685",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "1387732895",
-        "text": "AYBABY/爱予宝贝"
+        "value": "45532929",
+        "text": "Sata/世达"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"45532929",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "76764877",
-        "text": "Achilles/阿基里斯"
+        "value": "109717910",
+        "text": "Sycif"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"109717910",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "95470562",
-        "text": "Adenita/阿迪丽达"
+        "value": "50816788",
+        "text": "TASI"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"50816788",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "234712629",
-        "text": "Aerosleep"
+        "value": "3364875",
+        "text": "UNI－T/优利德"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"3364875",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
       ,     {
-        "value": "60765829",
-        "text": "Aimos/艾姆斯"
+        "value": "7403457",
+        "text": "UYIGAO/优仪高"
                         ,"async": {
+                            "subProps": {
+                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
+                    "type": "get",
+                    "param": {
+                        "catId":"50008950",
+                        "pid":"20000",
+                        "vid":"7403457",
+                                                "module": "subProps"
+                    }
+                }
                     }
             }
     ]
                     }
                                 
-                                            ]
+                                  ,                    {
+                        "id":"subProp_20000_0",
+                        "label":"型号",
+                        "type":"text",
+                                                "required":true
+                    }
+                            ]
         }
     
         					,										    
@@ -718,1459 +1218,10 @@
                 
             },
 
-            "required": false,
-    
-            "isKeyProp":true,
-                                "type": "combobox",
-                                                "options":[         {
-        "value": "3530880",
-        "text": "zt01"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3755630",
-        "text": "ZT02"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "4971993",
-        "text": "ZT03"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3539657",
-        "text": "ZT04"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "4234127",
-        "text": "ZT05"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "4969526",
-        "text": "ZT06"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "4234079",
-        "text": "ZT07"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "4234003",
-        "text": "ZT08"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "4233934",
-        "text": "ZT09"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "5464905",
-        "text": "ZT10"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "154571462",
-        "text": "823000073"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "139788477",
-        "text": "813000163"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "154584082",
-        "text": "813000172"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "189764345",
-        "text": "813000193"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "181846411",
-        "text": "813000136"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "179462151",
-        "text": "813000192"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "182928448",
-        "text": "843000046"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "128753039",
-        "text": "813000113"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "158857576",
-        "text": "8230000630"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "120813285",
-        "text": "84300002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "147259794",
-        "text": "843000035"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "87209721",
-        "text": "823000067"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "154468428",
-        "text": "823000071"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "99575723",
-        "text": "823000007"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "194440349",
-        "text": "823000072"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "88050274",
-        "text": "W91030202101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "54234445",
-        "text": "90934201150"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "126126389",
-        "text": "91114315118"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "141937623",
-        "text": "BA30104101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "130247140",
-        "text": "BB30103101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "54103373",
-        "text": "90932202105"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "141928335",
-        "text": "BA31104101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "186784272",
-        "text": "BA31501101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "187398309",
-        "text": "BA31601101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "143001660",
-        "text": "BB30103201"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "131369329",
-        "text": "BB31103101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "116461403",
-        "text": "91114291135"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "187676845",
-        "text": "BA30401101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "178098859",
-        "text": "BA32202102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "143651644",
-        "text": "BA52201150"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "131364327",
-        "text": "BB30802101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "111854659",
-        "text": "91030603101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "125747008",
-        "text": "BA32402101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "141771095",
-        "text": "BB31301101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "193812958",
-        "text": "BC36101110"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "106455568",
-        "text": "91114315119"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "111861856",
-        "text": "91114315121"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "154415637",
-        "text": "BB32202102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "141184393",
-        "text": "BB52502154"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "144943043",
-        "text": "BW50505150"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "143582024",
-        "text": "BW52501150"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "85047916",
-        "text": "91030102101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "81539439",
-        "text": "91031102101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "148905954",
-        "text": "BA31101102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "114145231",
-        "text": "BH12702103"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "130536219",
-        "text": "BB32401101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "143876470",
-        "text": "BW52502150"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "102052075",
-        "text": "W91030802109"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "64227304",
-        "text": "W91031102101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "80002470",
-        "text": "W91032102100"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "114150019",
-        "text": "HA12702104"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "60583491",
-        "text": "W91052102150"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "108773132",
-        "text": "W91114191101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "51234822",
-        "text": "w91030201101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "148445655",
-        "text": "M91214111101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "52768438",
-        "text": "W91030801101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "112121347",
-        "text": "W91032105105"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "120186801",
-        "text": "W91114201109"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "111901709",
-        "text": "K91114191104"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "157917363",
-        "text": "S91114315102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "136202203",
-        "text": "S91217697101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "51267254",
-        "text": "W91031101101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "117207628",
-        "text": "W91114121108"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "154729047",
-        "text": "N91214331101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "114159481",
-        "text": "K91114111101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "187536446",
-        "text": "S91114330101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "127937415",
-        "text": "W91032105107"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "109147556",
-        "text": "K91117707101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "148299032",
-        "text": "M91214321103"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "153691130",
-        "text": "N91214111102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "53989507",
-        "text": "W91032101105"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "189246520",
-        "text": "K91214315101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "107533089",
-        "text": "W91114111102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "53989390",
-        "text": "W91032101107"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "102509928",
-        "text": "K91114110101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "148466075",
-        "text": "M91214111102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "119108782",
-        "text": "W91114261104"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "198162769",
-        "text": "W91214316104"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "119088732",
-        "text": "W91114261105"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "101105640",
-        "text": "W91117707102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "141086870",
-        "text": "W91217697101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "56090421",
-        "text": "XB12203106"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "140984840",
-        "text": "w91217697106"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "101108593",
-        "text": "W91117707103"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "140833087",
-        "text": "W91217697102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "143703580",
-        "text": "W91217697107"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "125772524",
-        "text": "XA12201104"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "139988711",
-        "text": "W91217697105"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "153690823",
-        "text": "W91217697109"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "119111917",
-        "text": "W91114261106"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "198172736",
-        "text": "W91214315104"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "141117685",
-        "text": "W91217697104"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "117483957",
-        "text": "W91114241107"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "120719454",
-        "text": "W91114301103"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "101110485",
-        "text": "W91117707104"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "181260106",
-        "text": "W91214315102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "125772696",
-        "text": "XA12201106"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "181242411",
-        "text": "W91214314101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "178618740",
-        "text": "W91214314104"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "193724247",
-        "text": "W91214315103"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "140860454",
-        "text": "W91217697103"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "155893228",
-        "text": "W91217697108"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "141190444",
-        "text": "XA52501151"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "56091609",
-        "text": "XB12204108"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "200262439",
-        "text": "W91214313101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "205950076",
-        "text": "W91214317103"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "78814152",
-        "text": "XB12702101"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "56081456",
-        "text": "XB12206106"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "78816817",
-        "text": "XB12702102"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271228697",
-        "text": "B1228003"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271232456",
-        "text": "B1220007"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271236188",
-        "text": "T1327002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "117002695",
-        "text": "b1120005"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271216954",
-        "text": "B1228004"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271238185",
-        "text": "B1126002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271240158",
-        "text": "B1228005"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "94771519",
-        "text": "C0AZ079"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "232318444",
-        "text": "WHA3Z009000"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271226683",
-        "text": "B1220006"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271224644",
-        "text": "B1126005"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "35708651",
-        "text": "c9bz013"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271218809",
-        "text": "T1328008"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271226684",
-        "text": "B1126003"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271234464",
-        "text": "B1356007"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "70229431",
-        "text": "B1020001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "243820303",
-        "text": "WHA3L006000"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271226685",
-        "text": "B1228002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271216953",
-        "text": "B1126004"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271234465",
-        "text": "B1256001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271234466",
-        "text": "B1220009"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271234467",
-        "text": "B1356003"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271234468",
-        "text": "B1028001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "46706642",
-        "text": "c9bz018"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271222671",
-        "text": "T1327006"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "243824243",
-        "text": "WHA3L005000"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "108815701",
-        "text": "B1020002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271218810",
-        "text": "B1026001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271218808",
-        "text": "B1220008"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271222736",
-        "text": "T1328005"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271234546",
-        "text": "T1320003"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271218872",
-        "text": "T1360001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271236241",
-        "text": "T1320004"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271220811",
-        "text": "T1320006"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271242029",
-        "text": "T1328003"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "243546402",
-        "text": "T1327012"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271228757",
-        "text": "T1327004"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271224702",
-        "text": "T1320007"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271240240",
-        "text": "T1320001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271222737",
-        "text": "T1328007"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271228758",
-        "text": "T1328002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271238243",
-        "text": "T1321001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "151844223",
-        "text": "B1060002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271230580",
-        "text": "T1322001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271218874",
-        "text": "T1327011"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271242030",
-        "text": "T1322002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271236242",
-        "text": "T1356008"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271218875",
-        "text": "T1327001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271220812",
-        "text": "T1353006"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "108815710",
-        "text": "B1020003"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271236243",
-        "text": "T1328004"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271236244",
-        "text": "B1126006"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271236245",
-        "text": "T1327005"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271236246",
-        "text": "T1326002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271218873",
-        "text": "T1320002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271234547",
-        "text": "T1356006"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271218876",
-        "text": "T1320005"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271244105",
-        "text": "T1356007"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271226873",
-        "text": "T1327008"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271240354",
-        "text": "T1327010"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "172598815",
-        "text": "BZW16503"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271238347",
-        "text": "T1327013"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271240355",
-        "text": "T1327014"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271222835",
-        "text": "T1327003"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271220936",
-        "text": "T1356001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271224813",
-        "text": "T1326001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271224812",
-        "text": "T1327007"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "195816250",
-        "text": "BZW116901"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271238348",
-        "text": "T1328001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271234657",
-        "text": "T1356002"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271226874",
-        "text": "T1356003"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "271242153",
-        "text": "B1356005"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "140081559",
-        "text": "莲心荞麦枕"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "134766917",
-        "text": "B1021001"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "272052954",
-        "text": "T1327009"
-                        ,"async": {
-                    }
-            }
-    ]
-                    }
-                                
-                                            ]
-        }
-    
-        					,										    
-
-
-            {
-            "id": "wrap_128132720",
-            "label": "适用人群",
-            "type": "propWrap",
-            "items": [
-                                                    {
-                            "id": "prop_128132720",
-    "label": "适用人群",
-                "async": {
-                
-                
-                
-            },
-
-            "required": false,
-    
-                                "type": "combobox",
-                                                "options":[         {
-        "value": "27845",
-        "text": "儿童"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3317647",
-        "text": "婴儿"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3622544",
-        "text": "成人"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "101181",
-        "text": "老年"
-                        ,"async": {
-                    }
-            }
-    ]
-                    }
-                                
-                                            ]
-        }
-    
-        					,										{
-				    "id": "prop_147908493",
-"label": "重量",
-"required":false,
-"type":  "measureProps" ,
-"taoSir":{
-    "express":[
-                        {
-            "type":"input",
-            "text":"",
-            "placeholder":"数字",
-            "maxLength":10
-        }
-            ],
-    "precision":"2"
-            ,"units":[
-                                        {
-                "value": "33",
-                "text":"kg"
-            }
-                ]
-    }
-,"info":[
-       {
-        "type":"simple_inline",
-        "text": "小数点后最多2位",
-        "pos": "bottom"
-    }
-    ]
-				}
-								,										    
-
-
-            {
-            "id": "wrap_6861561",
-            "label": "填充物",
-            "type": "propWrap",
-            "items": [
-                                                    {
-                            "id": "prop_6861561",
-    "label": "填充物",
-                "async": {
-                            "subProps": {
-                "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                "type": "get",
-                "param": {
-                    "catId": "50002777",
-                    "pid": "6861561",
-                    "data":"$data('prop_6861561')",
-                                        "module": "subProps"
-                }
-            }
-        
-                
-                
-            },
-
             "required": true,
     
                                 "type": "combobox",
-                                                "options":[         {
-        "value": "8904584",
-        "text": "大豆纤维"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "105255",
-        "text": "棉"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3267649",
-        "text": "粘胶纤维"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "6354050",
-        "text": "羽毛"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "105205",
-        "text": "纤维枕"
-                        ,"async": {
-                            "subProps": {
-                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                    "type": "get",
-                    "param": {
-                        "catId":"50002777",
-                        "pid":"6861561",
-                        "vid":"105205",
-                                                "module": "subProps"
-                    }
-                }
-                    }
-            }
-      ,     {
-        "value": "3328269",
-        "text": "花草"
-                        ,"async": {
-                            "subProps": {
-                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                    "type": "get",
-                    "param": {
-                        "catId":"50002777",
-                        "pid":"6861561",
-                        "vid":"3328269",
-                                                "module": "subProps"
-                    }
-                }
-                    }
-            }
-      ,     {
-        "value": "37689506",
-        "text": "蚕砂"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "107821",
-        "text": "羽绒"
-                        ,"async": {
-                            "subProps": {
-                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                    "type": "get",
-                    "param": {
-                        "catId":"50002777",
-                        "pid":"6861561",
-                        "vid":"107821",
-                                                "module": "subProps"
-                    }
-                }
-                    }
-            }
-      ,     {
-        "value": "3398091",
-        "text": "玉石"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "5155388",
-        "text": "气体"
-                        ,"async": {
-                            "subProps": {
-                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                    "type": "get",
-                    "param": {
-                        "catId":"50002777",
-                        "pid":"6861561",
-                        "vid":"5155388",
-                                                "module": "subProps"
-                    }
-                }
-                    }
-            }
-      ,     {
-        "value": "3289130",
-        "text": "竹炭"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "6711020",
-        "text": "记忆棉（聚氨酯）"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "130682",
-        "text": "蚕丝"
-                        ,"async": {
-                            "subProps": {
-                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                    "type": "get",
-                    "param": {
-                        "catId":"50002777",
-                        "pid":"6861561",
-                        "vid":"130682",
-                                                "module": "subProps"
-                    }
-                }
-                    }
-            }
-      ,     {
-        "value": "113357",
-        "text": "涤纶（聚酯纤维）"
-                        ,"async": {
-                            "subProps": {
-                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                    "type": "get",
-                    "param": {
-                        "catId":"50002777",
-                        "pid":"6861561",
-                        "vid":"113357",
-                                                "module": "subProps"
-                    }
-                }
-                    }
-            }
-      ,     {
-        "value": "14863995",
-        "text": "其他/other"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "6145911",
-        "text": "天然乳胶"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "121890196",
-        "text": "合成乳胶"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "1798044037",
-        "text": "人工乳胶"
-                        ,"async": {
-                    }
-            }
-    ]
+                                                "options":[    ]
                     }
                                 
                                             ]
@@ -2180,304 +1231,13 @@
 
 
             {
-            "id": "wrap_20819",
-            "label": "形状",
+            "id": "wrap_122276330",
+            "label": "装修及施工内容",
             "type": "propWrap",
             "items": [
                                                     {
-                            "id": "prop_20819",
-    "label": "形状",
-                "async": {
-                
-                
-                
-            },
-
-            "required": false,
-    
-                                "type": "combobox",
-                                                "options":[         {
-        "value": "12507138",
-        "text": "波浪形"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "4543067",
-        "text": "蝶形"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "31867",
-        "text": "长方形"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "6085208",
-        "text": "U形"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "27435460",
-        "text": "糖果形"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "41654189",
-        "text": "骨头形"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "31865",
-        "text": "圆形"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "31866",
-        "text": "正方形"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "14863995",
-        "text": "其他/other"
-                        ,"async": {
-                    }
-            }
-    ]
-                    }
-                                
-                                            ]
-        }
-    
-        					,										    
-
-
-            {
-            "id": "wrap_20021",
-            "label": "枕头面料",
-            "type": "propWrap",
-            "items": [
-                                                    {
-                            "id": "prop_20021",
-    "label": "枕头面料",
-                "async": {
-                            "subProps": {
-                "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                "type": "get",
-                "param": {
-                    "catId": "50002777",
-                    "pid": "20021",
-                    "data":"$data('prop_20021')",
-                                        "module": "subProps"
-                }
-            }
-        
-                
-                
-            },
-
-            "required": false,
-    
-                                "type": "combobox",
-                                                "options":[         {
-        "value": "80663",
-        "text": "丙纶"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3661871",
-        "text": "天丝"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "10010",
-        "text": "无"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "105255",
-        "text": "棉"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3267649",
-        "text": "粘胶纤维"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "113357",
-        "text": "聚酯纤维"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "130682",
-        "text": "蚕丝"
-                        ,"async": {
-                            "subProps": {
-                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                    "type": "get",
-                    "param": {
-                        "catId":"50002777",
-                        "pid":"20021",
-                        "vid":"130682",
-                                                "module": "subProps"
-                    }
-                }
-                    }
-            }
-      ,     {
-        "value": "130737854",
-        "text": "醋酯纤维"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "53908",
-        "text": "棉布"
-                        ,"async": {
-                            "subProps": {
-                    "uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-                    "type": "get",
-                    "param": {
-                        "catId":"50002777",
-                        "pid":"20021",
-                        "vid":"53908",
-                                                "module": "subProps"
-                    }
-                }
-                    }
-            }
-      ,     {
-        "value": "130223",
-        "text": "丝绸"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3269748",
-        "text": "涤棉"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "14863995",
-        "text": "其他/other"
-                        ,"async": {
-                    }
-            }
-    ]
-                    }
-                                
-                                            ]
-        }
-    
-        					,										    
-
-
-            {
-            "id": "wrap_31480",
-            "label": "适用人数",
-            "type": "propWrap",
-            "items": [
-                                                    {
-                            "id": "prop_31480",
-    "label": "适用人数",
-                "async": {
-                
-                
-                
-            },
-
-            "required": true,
-    
-                                "type": "combobox",
-                                                "options":[         {
-        "value": "18242343",
-        "text": "2人"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3226219",
-        "text": "单人"
-                        ,"async": {
-                    }
-            }
-    ]
-                    }
-                                
-                                            ]
-        }
-    
-        					,										    
-
-
-            {
-            "id": "wrap_6200039",
-            "label": "产品等级",
-            "type": "propWrap",
-            "items": [
-                                                    {
-                            "id": "prop_6200039",
-    "label": "产品等级",
-                "async": {
-                
-                
-                
-            },
-
-            "required": false,
-    
-                                "type": "combobox",
-                                                "options":[         {
-        "value": "4346962",
-        "text": "合格品"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "3363223",
-        "text": "一等品"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "6856352",
-        "text": "优等品"
-                        ,"async": {
-                    }
-            }
-      ,     {
-        "value": "14863995",
-        "text": "其他/other"
-                        ,"async": {
-                    }
-            }
-    ]
-                    }
-                                
-                                            ]
-        }
-    
-        					,										    
-
-
-        {
-            "id": "prop_2814443",
-    "label": "商品条形码",
+                            "id": "prop_122276330",
+    "label": "装修及施工内容",
             "custom":{
             "maxSize":1,
             "maxLength":28
@@ -2488,14 +1248,210 @@
                 
             },
 
-            "required": false,
+            "required": true,
     
-                "type": "text"
+                                "type": "combobox",
+                                                "options":[         {
+        "value": "20825448",
+        "text": "安装工程"
+                        ,"async": {
+                    }
             }
+      ,     {
+        "value": "20825446",
+        "text": "木工工程"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "20825444",
+        "text": "水电工程"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "20825447",
+        "text": "油漆工程"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "20825449",
+        "text": "清洁环保"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "20825443",
+        "text": "采购主材"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "493262411",
+        "text": "隐蔽泥工工程"
+                        ,"async": {
+                    }
+            }
+    ]
+                    }
+                                
+                                            ]
+        }
+    
+        					,										    
+
+
+            {
+            "id": "wrap_10064123",
+            "label": "工作原理",
+            "type": "propWrap",
+            "items": [
+                                                    {
+                            "id": "prop_10064123",
+    "label": "工作原理",
+            "custom":{
+            "maxSize":1,
+            "maxLength":28
+        },
+                "async": {
+                
+                
+                
+            },
+
+            "required": true,
+    
+                                "type": "combobox",
+                                                "options":[         {
+        "value": "4130408",
+        "text": "超声波"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "22074",
+        "text": "激光"
+                        ,"async": {
+                    }
+            }
+    ]
+                    }
+                                
+                                            ]
+        }
+    
+        					,										    
+
+
+            {
+            "id": "wrap_10165148",
+            "label": "测距距离",
+            "type": "propWrap",
+            "items": [
+                                                    {
+                            "id": "prop_10165148",
+    "label": "测距距离",
+            "custom":{
+            "maxSize":1,
+            "maxLength":28
+        },
+                "async": {
+                
+                
+                
+            },
+
+            "required": true,
+    
+                                "type": "combobox",
+                                                "options":[         {
+        "value": "29786",
+        "text": "10m"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "60079",
+        "text": "20m"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "60080",
+        "text": "30M"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "9772698",
+        "text": "40M"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "43137",
+        "text": "50m"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "60081",
+        "text": "60m"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "6129162",
+        "text": "70M"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "6107347",
+        "text": "80m"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "60082",
+        "text": "90m"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "29787",
+        "text": "100m"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "8402335",
+        "text": "150m"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "43146",
+        "text": "200m"
+                        ,"async": {
+                    }
+            }
+      ,     {
+        "value": "7081506",
+        "text": "250m"
+                        ,"async": {
+                    }
+            }
+    ]
+                    }
+                                
+                                            ]
+        }
     
         						]
 	,"async": {
-		"spu": { 						"uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8&catId=50002777&module=spu",
+		"spu": { 						"uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8&catId=50008950&module=spu",
 			"type": "post",
 			"param": {}
 		}
@@ -2512,9 +1468,9 @@
 			"type": "post",
 			"param": {
 				"type":"get",
-				"catId":"50002777",
+				"catId":"50008950",
 				"module":"qualification",
-				"itemId":"566037390552"
+				"itemId":"569230009791"
 			}
 								}
 			},
@@ -2590,23 +1546,11 @@
 			"readonly": false,      		"itemOption": {				"0": {"label": "宝贝主图","required": true }
 																		,"4":{"label": "商品白底图"}
 									     		 }
-						,"imgProtect": true,
-			"async":{
-				"checkImg": {
-					"uri": "/auction/container/get_data.htm?_input_charset=utf-8&_output_charset=utf-8",
-					"type": "post",
-					"param": {
-						"catId":"50002777",
-						"module":"imgProtect",
-						"itemId":"566037390552"
-					}
-				}
-			}
 					}
 
 	],
 	"info": [
-												{"type": "block","pos": "top","text": "宝贝主图大小不能超过3MB；700*700 以上图片上传后宝贝详情页自动提供放大镜功能。 商品第五张发商品白底图可增加手淘首页曝光机会 <a href='//jiyoujia-bed.bbs.taobao.com/detail.html?postId=7199609' target='_blank'>查看规范</a> "}
+												{"type": "block","pos": "top","text": "宝贝主图大小不能超过3MB；700*700 以上图片上传后宝贝详情页自动提供放大镜功能。 第五张图片发商品白底图可增加手淘首页曝光机会 <a href='//diy.bbs.taobao.com/detail.html?postId=7736924' target='_blank'>查看规范</a> "}
 										 ,        {"type": "block","pos": "bottom","text": "商品图片中的一张设为淘宝直通车推广创意时，更新此图片会同步至淘宝直通车创意。"}
 			]
 }
@@ -2617,8 +1561,8 @@
 
 			"dataType": "object",
 		"interactiveId": "0",
-		"itemId": "566037390552",
-		"mainCategoryId": "50008163",
+		"itemId": "569230009791",
+		"mainCategoryId": "50020485",
 	
 "readonly": false,"dataStat": {"change":"/mjzx.55.12"}
 }
@@ -3012,7 +1956,7 @@
                     "uri": "/auction/container/get_data.htm?_input_charset=utf-8",
                     "type": "get",
                     "param":{
-                        "catId":"50002777",
+                        "catId":"50008950",
                         "pid":"1627207",
                         "isSuggest":true,
                         "module":"colorSuggest"
@@ -3022,7 +1966,7 @@
                     "uri": "/auction/container/get_data.htm?_input_charset=utf-8",
                     "type": "get",
                     "param":{
-                        "catId":"50002777",
+                        "catId":"50008950",
                         "pid":"1627207",
                         "isCheck":true,
                         "module":"colorSuggest"
@@ -3098,7 +2042,7 @@
 			"disableAutoCount":true,
 			"async": {
 				"check": {
-					"uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=50002777&module=price",
+					"uri": "/auction/container/get_data.htm?_input_charset=utf-8&catId=50008950&module=price",
 					"type": "get",
 					"param": {
 						"price": "$data('price')",
@@ -3141,36 +2085,6 @@
 	"dataType":"string"
 }
 		    	]
-		,"reactions": [
-				{
-			"condition": "$stuffStatus == 5",
-			"action":{
-				"info":{
-					"id": "priceinfo",
-					"text":"本类目下，宝贝价格必须在1.00元-100000.00元之间",
-					"disable": false
-				}
-			}
-		}
-						,{
-			"condition": "$stuffStatus == 6",
-			"action":{
-				"info":{
-					"id": "priceinfo",
-					"text":"",
-					"disable": true
-				}
-			}
-		}
-			],
-	"info":[
-				{
-			"id":"priceinfo",
-			"type":"simple_inline",
-												"disable":false,
-			"text":"本类目下，宝贝价格必须在1.00元-100000.00元之间"
-					}
-					]
 	}
                                                                                 ,{
 	"id": "purchaseLocation.isGlobalStock",
@@ -3409,28 +2323,120 @@
             "value": 1,
             "text": "一口价(普通交易模式)"
         }
-                        ,{
-            "value": 2,
-            "text": "预售设置"
+                                        ,{
+            "value": 8,
+            "text": "线上付订金，线下付尾款"
         }
-                                    ]
+                    ]
     }
-                ,{
-    "id": "preSale",
-        "type": "presale",
-    "dataType":"string",
-    "disable":true,    "preSaleType":1,    "reactions": [
+            
+
+,{
+    "id": "o2oPay.frame",
+    "comid": "o2oPay.frame",
+    "type": "frame",
+    "disable":  true,
+    "info": [
         {
-            "condition": "$stuffStatus==5&&$payMode.type==2",
-            "action": {"disable":false}
+            "type":"block",
+            "pos":"top",
+            "text": "此付款模式下，仅支持电子交易凭证，请在物流服务区块进行设置"
+        }
+    ],
+    "items": [
+        {
+            "id":"o2oPay.deposit",
+            "type": "text",
+            "dataType":"money",
+            "label": "预约价格",
+            "readonly": true,
+            "unit":"元",
+            "info": [
+                {
+                    "type": "simple_inline",
+                    "text": "该项值等于宝贝价格，请直接修改宝贝价格"
+                }
+            ],
+            "reactions": [
+                {
+                    "condition": "$price!=null",
+                    "action": {
+                        "valueof": "price"
+                    }
+                }
+            ]
         },
         {
-            "condition": "$stuffStatus!=5||$payMode.type!=2",
-            "action": {"disable":true}
+            "id":"o2oPay.tailBenefit",
+            "type": "radio",
+            "dataType":"integer",
+            "label": "尾款优惠",
+            "required": true,
+            "options": [
+                {
+                    "value": 0,
+                    "text": "无优惠"
+                },
+                {
+                    "value": 1,
+                    "text": "尾款立减"
+                }
+            ]
+        },
+        {
+            "comid": "o2oPay.tailReduce.frame",
+            "id": "o2oPay.tailReduce.frame",
+            "type":"frame",
+                        "disable":true,
+                        "items":[
+                {
+                    "id": "o2oPay.tailReduce",
+                    "label": "立减",
+                    "type": "text",
+                    "dataType":"money",
+                    "required": true,
+                    "maxLength": 8,
+                    "unit":"元"
+                }
+            ],
+            "reactions": [
+                {
+                    "condition": "$o2oPay.tailBenefit==1",
+                    "action": {"disable": false}
+                },
+                {
+                    "condition": "$o2oPay.tailBenefit!=1",
+                    "action": {"disable": true}
+                }
+            ]
+        },
+        {
+            "id":"o2oPay.reference",
+            "type": "text",
+            "dataType":"money",
+            "label": "购买价格",
+            "unit": "元",
+            "required": true,
+            "info": [
+                {
+                "type": "simple_inline",
+                "text": "用户可根据“参考价格”估算全款，“参考价格”需大于等于“订金”"
+                }
+            ]
+        }
+    ],
+    "reactions": [
+        {
+            "condition": "$payMode.type==8",
+            "action": {"disable": false}
+        },
+        {
+            "condition": "$payMode.type!=8",
+            "action": {"disable": true}
         }
     ]
 }
-                    ,{
+                        ,{
 	"id": "video",
 	"label": "宝贝视频",
 	"type": "auctionVideo",
@@ -3478,7 +2484,7 @@
 			"uri": "/auction/container/get_data.htm",
 			"type": "get",
 			"param": {
-				"catId": "50002777",
+				"catId": "50008950",
 				"index": "1",
 				"pageSize": "1",
 				"kw": "",
@@ -3489,7 +2495,7 @@
 			"uri": "/auction/container/get_data.htm",
 			"type": "get",
 			"param": {
-				"catId": "50002777",
+				"catId": "50008950",
 				"tfsPath": "",
 				"module": "descModuleContent"
 			}
@@ -3498,7 +2504,7 @@
 			"uri": "/auction/container/get_data.htm",
 			"type": "post",
 			"param": {
-				"catId": "50002777",
+				"catId": "50008950",
 				"module": "wapDescAutoGen",
 				"description":""
 			}
@@ -3507,8 +2513,8 @@
 			"uri":"/auction/container/get_data.htm?module=descBackup",
 			"type":"get",
 			"param":{
-				"catId":"50002777",
-				"itemId":"566037390552",
+				"catId":"50008950",
+				"itemId":"569230009791",
 				"type":"pc"
 			}
 		}
@@ -3546,7 +2552,7 @@
 		"uri": "/auction/container/get_data.htm",
 		"type": "post",
 		"param": {
-			"catId": "50002777",
+			"catId": "50008950",
 			"module": "wlDescAutoGen",
 			"description":""
 			}
@@ -3599,8 +2605,8 @@
 				"uri":"/auction/container/get_data.htm?module=descBackup",
 				"type":"get",
 				"param":{
-					"catId":"50002777",
-					"itemId":"566037390552",
+					"catId":"50008950",
+					"itemId":"569230009791",
 					"type":"wl"
     			}
 			}
@@ -3691,7 +2697,17 @@
             "text":"线上交易，线下核销可以使用电子凭证，<a target='_blank' href='//taobaosell.bbs.taobao.com/detail.html?spm=a210m.7877990.0.0.PxSOCq&appId=23012&postId=2609000'>使用教程</a>"
         }
     ]
+            ,"reactions": [
+        {
+            "condition": "($payMode.type==8)||($payMode.type==16)",
+            "action": {"value":[2],"readonly":true}
+        },
+        {
+            "condition": "($payMode.type!=8)&&($payMode.type!=16)",
+            "action": {"readonly":false}
         }
+    ]
+    }
     ,{	"id":"deliverSetting",
 	"type":"frame",
 	"dataStat":{"onShow":"/mjzx.55.26"},
@@ -3707,6 +2723,11 @@
 							 				{
 					"value": 11337354690,
 					"text": "浙江湖州",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11575051500,
+					"text": "山东淄博",
 					"isOverseas":""
 				}
 				, 				{
@@ -3735,6 +2756,21 @@
 					"isOverseas":""
 				}
 				, 				{
+					"value": 12396496360,
+					"text": "湖南娄底",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11574062550,
+					"text": "广东惠州",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11487813170,
+					"text": "贵州黔西南",
+					"isOverseas":""
+				}
+				, 				{
 					"value": 11345781450,
 					"text": "广东汕头",
 					"isOverseas":""
@@ -3742,6 +2778,16 @@
 				, 				{
 					"value": 10505220000,
 					"text": "江苏南通",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 13542230310,
+					"text": "山东烟台",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11500881160,
+					"text": "山东潍坊",
 					"isOverseas":""
 				}
 				, 				{
@@ -3755,8 +2801,23 @@
 					"isOverseas":""
 				}
 				, 				{
+					"value": 11457629310,
+					"text": "北京",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11493865350,
+					"text": "安徽六安",
+					"isOverseas":""
+				}
+				, 				{
 					"value": 11372071620,
 					"text": "江苏南京",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 12507621010,
+					"text": "山东青岛",
 					"isOverseas":""
 				}
 				, 				{
@@ -3767,6 +2828,11 @@
 				, 				{
 					"value": 11313796940,
 					"text": "河北邢台",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11478875430,
+					"text": "江西抚州",
 					"isOverseas":""
 				}
 				, 				{
@@ -3787,6 +2853,11 @@
 				, 				{
 					"value": 11325626770,
 					"text": "浙江杭州",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11526765740,
+					"text": "河南郑州",
 					"isOverseas":""
 				}
 				, 				{
@@ -3830,8 +2901,18 @@
 					"isOverseas":""
 				}
 				, 				{
+					"value": 11479797010,
+					"text": "江西景德镇",
+					"isOverseas":""
+				}
+				, 				{
 					"value": 5258489310,
 					"text": "包邮",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11574406610,
+					"text": "河北唐山",
 					"isOverseas":""
 				}
 				, 				{
@@ -3865,6 +2946,11 @@
 					"isOverseas":""
 				}
 				, 				{
+					"value": 11483881410,
+					"text": "四川眉山",
+					"isOverseas":""
+				}
+				, 				{
 					"value": 11356325280,
 					"text": "河北廊坊",
 					"isOverseas":""
@@ -3872,6 +2958,16 @@
 				, 				{
 					"value": 5259468600,
 					"text": "2",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11572793870,
+					"text": "江苏淮安",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11492079550,
+					"text": "湖北黄石",
 					"isOverseas":""
 				}
 				, 				{
@@ -3890,6 +2986,16 @@
 					"isOverseas":""
 				}
 				, 				{
+					"value": 11499844000,
+					"text": "河南驻马店",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11492397140,
+					"text": "湖北武汉",
+					"isOverseas":""
+				}
+				, 				{
 					"value": 11407913640,
 					"text": "江苏徐州",
 					"isOverseas":""
@@ -3900,8 +3006,38 @@
 					"isOverseas":""
 				}
 				, 				{
+					"value": 13323525370,
+					"text": "上海22",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11493922760,
+					"text": "广东阳江",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11974576990,
+					"text": "山东临沂",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11572175010,
+					"text": "河南洛阳",
+					"isOverseas":""
+				}
+				, 				{
 					"value": 11347539390,
 					"text": "江苏苏州",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11880653250,
+					"text": "天津",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11486756430,
+					"text": "福建宁德",
 					"isOverseas":""
 				}
 				, 				{
@@ -3935,8 +3071,23 @@
 					"isOverseas":""
 				}
 				, 				{
+					"value": 11482857730,
+					"text": "广西南宁",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11482849180,
+					"text": "山东菏泽",
+					"isOverseas":""
+				}
+				, 				{
 					"value": 11338590500,
 					"text": "浙江台州",
+					"isOverseas":""
+				}
+				, 				{
+					"value": 11498719510,
+					"text": "山东泰安",
 					"isOverseas":""
 				}
 				, 				{
@@ -3951,8 +3102,8 @@
 				}
 										],
 			"expandText":{
-												"createTplUrl":"//wuliu.taobao.com/user/logis_tools.htm?tabSource=carriageTemplate&fromType=fromPublishNew&forceSellerPay=false&categoryid=50002777",
-								"viewDetailUrl":"//wuliu.taobao.com/user/logis_tools.htm?tabSource=carriageTemplate&fromType=fromPublishNew&categoryid=50002777",
+												"createTplUrl":"//wuliu.taobao.com/user/logis_tools.htm?tabSource=carriageTemplate&fromType=fromPublishNew&forceSellerPay=false&categoryid=50008950",
+								"viewDetailUrl":"//wuliu.taobao.com/user/logis_tools.htm?tabSource=carriageTemplate&fromType=fromPublishNew&categoryid=50008950",
 				"getTplUrl":"//delivery.taobao.com/detail/getTemplateByIdAndUserId.do?user_id=795343049"
 			},
 			"async": {
@@ -3961,7 +3112,7 @@
 					"type": "get",
 					"param": {
 						"id": "$deliverTemplate.value",
-						"catId": "50002777"
+						"catId": "50008950"
 					}
 				}
 			},
@@ -4016,6 +3167,10 @@
 			"condition": "!include($deliverWay, 1)",
 			"action": {"disable": true}
 		}
+				,{
+			"condition": "$payMode.type==8",
+			"action": {"disable":true}
+		}
 			],
 	"info":[
 		{
@@ -4042,6 +3197,15 @@
 		{
 			"condition": "!include($deliverWay, 2)",
 			"action": {"disable": true}
+		}
+		,
+		{
+			"condition": "$payMode.type==8",
+			"action": {"o2oStatus":1}
+		},
+		{
+			"condition": "$payMode.type!=8",
+			"action": {"o2oStatus":0}
 		}
 			]
 	,"disable":true}
@@ -4236,7 +3400,23 @@
 			}
 		}
 	]
-}                                                            ,{
+}                                        ,{
+	"id": "vipDiscount",
+	"label": "会员打折",
+	"type": "radio",
+	"dataType":"integer",
+	"options": [
+		{
+			"value": 0,
+			"text": "不参与会员打折"
+		},
+		{
+			"value": 1,
+			"text": "参与会员打折"
+		}
+	]
+}
+                    ,{
 	"id": "promote",
 	"label": "橱窗推荐",
 	"type": "checkbox",
@@ -4257,7 +3437,7 @@
 		},
 		{
 			"type": "simple_inline",
-			"text": "您的橱窗使用情况：共【20】个，已用【20】个。"		}
+			"text": "您的橱窗使用情况：共【50】个，已用【50】个。"		}
 	]
 }
                                 ]
@@ -4285,11 +3465,6 @@
 			"description": "宝贝标题",
 			"maxLength": 60,
 			"minLength": 1 					},
-				"subTitle": {
-			"type":"string",
-			"description": "宝贝卖点",
-			"maxLength": 150
-		},
 						"detailTemplate":{
 			"type":"object",
 			"description": "详情页面模板",
@@ -4539,22 +3714,33 @@
 			"description": "物流模板",
 			"enum":[
 							 				11337354690
+				  , 				11575051500
 				  , 				11356462180
 				  , 				11440351330
 				  , 				11440132070
 				  , 				10505872310
 				  , 				11357031140
+				  , 				12396496360
+				  , 				11574062550
+				  , 				11487813170
 				  , 				11345781450
 				  , 				10505220000
+				  , 				13542230310
+				  , 				11500881160
 				  , 				10469946880
 				  , 				11330598870
+				  , 				11457629310
+				  , 				11493865350
 				  , 				11372071620
+				  , 				12507621010
 				  , 				11371636060
 				  , 				11313796940
+				  , 				11478875430
 				  , 				11331516030
 				  , 				11387831900
 				  , 				10470194700
 				  , 				11325626770
+				  , 				11526765740
 				  , 				11439852670
 				  , 				11414119540
 				  , 				11328430750
@@ -4563,28 +3749,44 @@
 				  , 				10506210960
 				  , 				11331932230
 				  , 				11327409670
+				  , 				11479797010
 				  , 				5258489310
+				  , 				11574406610
 				  , 				11342055100
 				  , 				11371972840
 				  , 				11326390050
 				  , 				11325584950
 				  , 				11353182730
 				  , 				11335567390
+				  , 				11483881410
 				  , 				11356325280
 				  , 				5259468600
+				  , 				11572793870
+				  , 				11492079550
 				  , 				10505962750
 				  , 				11338658840
 				  , 				11334829910
+				  , 				11499844000
+				  , 				11492397140
 				  , 				11407913640
 				  , 				11330055180
+				  , 				13323525370
+				  , 				11493922760
+				  , 				11974576990
+				  , 				11572175010
 				  , 				11347539390
+				  , 				11880653250
+				  , 				11486756430
 				  , 				11436952280
 				  , 				11341667310
 				  , 				11325992830
 				  , 				11335149000
 				  , 				11439015870
 				  , 				11337858470
+				  , 				11482857730
+				  , 				11482849180
 				  , 				11338590500
+				  , 				11498719510
 				  , 				11357140360
 				  , 				11416809090
 										]
@@ -4710,6 +3912,11 @@
 		"enum":[0,1]
 	}
 }
+,"vipDiscount":{
+	"type": "integer",
+	"description": "会员打折",
+	"enum":[0,1]
+}
 ,"subStockType":{
 	"type": "integer",
 	"description": "库存计数方式",
@@ -4786,8 +3993,8 @@
 			}
 
 				    
-, "prop_128132720": {
-	"description": "适用人群",
+, "prop_122276330": {
+	"description": "装修及施工内容",
 			"oneOf": [
 		{ "type": "string" },
 		{ 	"type": "object",
@@ -4811,8 +4018,8 @@
 			}
 
 				    
-, "prop_147908493": {
-	"description": "重量",
+, "prop_10064123": {
+	"description": "工作原理",
 			"oneOf": [
 		{ "type": "string" },
 		{ 	"type": "object",
@@ -4836,133 +4043,8 @@
 			}
 
 				    
-, "prop_6861561": {
-	"description": "填充物",
-			"oneOf": [
-		{ "type": "string" },
-		{ 	"type": "object",
-    "required":[
-        "value"
-    ],
-	"properties": {
-				"value": {
-			"description": "属性值ID",
-			"oneOf": [
-				{ "type": "integer" },
-				{ "type": "string", "pattern": "^[-]{0,1}\\d+$" }
-			]
-		},
-		"text": {
-			"type": "string"
-		}
-	}
- }
-	]
-			}
-
-				    
-, "prop_20819": {
-	"description": "形状",
-			"oneOf": [
-		{ "type": "string" },
-		{ 	"type": "object",
-    "required":[
-        "value"
-    ],
-	"properties": {
-				"value": {
-			"description": "属性值ID",
-			"oneOf": [
-				{ "type": "integer" },
-				{ "type": "string", "pattern": "^[-]{0,1}\\d+$" }
-			]
-		},
-		"text": {
-			"type": "string"
-		}
-	}
- }
-	]
-			}
-
-				    
-, "prop_20021": {
-	"description": "枕头面料",
-			"oneOf": [
-		{ "type": "string" },
-		{ 	"type": "object",
-    "required":[
-        "value"
-    ],
-	"properties": {
-				"value": {
-			"description": "属性值ID",
-			"oneOf": [
-				{ "type": "integer" },
-				{ "type": "string", "pattern": "^[-]{0,1}\\d+$" }
-			]
-		},
-		"text": {
-			"type": "string"
-		}
-	}
- }
-	]
-			}
-
-				    
-, "prop_31480": {
-	"description": "适用人数",
-			"oneOf": [
-		{ "type": "string" },
-		{ 	"type": "object",
-    "required":[
-        "value"
-    ],
-	"properties": {
-				"value": {
-			"description": "属性值ID",
-			"oneOf": [
-				{ "type": "integer" },
-				{ "type": "string", "pattern": "^[-]{0,1}\\d+$" }
-			]
-		},
-		"text": {
-			"type": "string"
-		}
-	}
- }
-	]
-			}
-
-				    
-, "prop_6200039": {
-	"description": "产品等级",
-			"oneOf": [
-		{ "type": "string" },
-		{ 	"type": "object",
-    "required":[
-        "value"
-    ],
-	"properties": {
-				"value": {
-			"description": "属性值ID",
-			"oneOf": [
-				{ "type": "integer" },
-				{ "type": "string", "pattern": "^[-]{0,1}\\d+$" }
-			]
-		},
-		"text": {
-			"type": "string"
-		}
-	}
- }
-	]
-			}
-
-				    
-, "prop_2814443": {
-	"description": "商品条形码",
+, "prop_10165148": {
+	"description": "测距距离",
 			"oneOf": [
 		{ "type": "string" },
 		{ 	"type": "object",
@@ -5213,11 +4295,139 @@
 				}
 			}
 		}
-				,"preSale": {
-			"type":"string",
-			"description": "预售设置"
+						,"o2oPay": {
+			"type": "object",
+			"description": "付款模式，支持O2O分阶段付款",
+			"oneOf": [
+				{
+					"properties": {
+						"payType": {
+							"type": "integer",
+							"description": "模式类型",
+							"enum": [0]
+						}
+					},
+					"required":["payType"],
+					"additionalProperties": false
+				},
+				{
+					"properties": {
+						"payType": {
+							"type":"integer",
+							"description":"模式类型",
+							"enum": [1]
+						},
+						"deposit": {
+        					"description":"订金",
+							"oneof":[
+								{
+									"type":"number",
+									"minimum": 0.01,									"maximum": 100000000
+								},
+								{
+									"type":"string",
+									"minLength":1,
+									"maxLength":9
+								}
+							]
+						},
+						"tailBenefit": {
+							"type":"integer",
+							"description":"尾款优惠方式",
+							"enum": [0,1]
+						},
+						"tailReduce": {
+							"description":"立减优惠额度",
+							"oneof":[
+								{
+									"type":"number",
+									"minimum":0.01,
+									"maximum": 100000000
+								},
+								{
+									"type":"string",
+									"minLength":1,
+									"maxLength":9
+								}
+							]
+						},
+						"reference": {
+							"description":"参考价格",
+							"oneof":[
+								{
+									"type":"number",
+									"minimum":0.01,
+									"maximum": 100000000
+								},
+								{
+									"type":"string",
+									"minLength":1,
+									"maxLength":9
+								}
+							]
+						}
+					},
+					"required":["payType","tailBenefit","reference"],
+					"additionalProperties": false
+				},
+				{
+					"properties": {
+						"deposit": {
+        					"description":"订金",
+							"oneof":[
+								{
+									"type":"number",
+									"minimum": 0.01,									"maximum": 100000000
+								},
+								{
+									"type":"string",
+									"minLength":1,
+									"maxLength":9
+								}
+							]
+						},
+						"tailBenefit": {
+							"type":"integer",
+							"description":"尾款优惠方式",
+							"enum": [0,1]
+						},
+						"tailReduce": {
+        					"description":"立减优惠额度",
+							"oneof":[
+								{
+									"type":"string",
+									"minLength":1,
+									"maxLength":9
+								},
+								{
+									"type":"number",
+									"minimum":0.01,
+									"maximum": 100000000
+								}
+							]
+						},
+						"reference": {
+							"description":"参考价格",
+							"oneof":[
+								{
+									"type":"string",
+									"minLength":1,
+									"maxLength":9
+								},
+								{
+									"type":"number",
+									"minimum":0.01,
+									"maximum": 100000000
+								}
+							]
+						}
+					},
+					"required":["tailBenefit","reference"],
+					"additionalProperties": false
+				}
+			]
 		}
-												,"legalCustoms":{
+										,"legalCustoms":{
         	"type":"integer",
         	"description": "报关方式"
 		}
@@ -5246,10 +4456,11 @@
 		}
 	},
 	"required":[    "catId","price","quantity","startTime","stuffStatus" ,"deliverWay"
-,"title","multiMedia"             					,"prop_20000"
-		                                        					,"prop_6861561"
-		                               					,"prop_31480"
-		                      ,"payMode"
+,"title","multiMedia"                      					,"prop_13021751"
+		             					,"prop_122276330"
+		             					,"prop_10064123"
+		             					,"prop_10165148"
+		    ,"payMode"
 ],
 	"additionalProperties": false
 }                     ,         "extraData":     {
@@ -5257,39 +4468,36 @@
         "value": 1
     }
             ,"title":{
-        "value":"可水洗枕头 护颈椎磁疗成人学生U型酒店荞麦决明子枕芯一对"
+        "value":"测距仪测高600米1500户外高精度电子尺手持"
     }
          ,"stuffStatus":{
         "value":5
     }
                         ,"price":{
-            "value":51.4
+            "value":327.8
         }
                     ,"quantity":{
-        "value":790
+        "value":15813
     }
                     ,"multiMedia.image":{
-        "value":[{"url":"https://img.alicdn.com/imgextra/i4/795343049/TB2EX6VdKySBuNjy1zdXXXPxFXa_!!795343049.jpg","major":true,"position":0},{"url":"https://img.alicdn.com/imgextra/i4/795343049/TB2ZUP4dH9YBuNjy0FgXXcxcXXa_!!795343049.jpg","major":false,"position":1},{"url":"https://img.alicdn.com/imgextra/i1/795343049/TB2kj6DdQ9WBuNjSspeXXaz5VXa_!!795343049.jpg","major":false,"position":2}]
+        "value":[{"url":"https://img.alicdn.com/imgextra/i3/795343049/TB2QACrfbZnBKNjSZFKXXcGOVXa_!!795343049.jpg","major":true,"position":0},{"url":"https://img.alicdn.com/imgextra/i2/795343049/TB2nri4qb5YBuNjSspoXXbeNFXa_!!795343049.jpg","major":false,"position":1},{"url":"https://img.alicdn.com/imgextra/i2/795343049/TB2ucZaqmtYBeNjSspkXXbU8VXa_!!795343049.jpg","major":false,"position":2},{"url":"https://img.alicdn.com/imgextra/i2/795343049/TB2hYLlqbSYBuNjSspfXXcZCpXa_!!795343049.jpg","major":false,"position":3}]
     }
                 ,"video":{
         "value": []
     }
             ,"descForPC":{
-                    "value":"\u003Cimg style=\"max-width:750.0px;\" src=\"https://img.alicdn.com/imgextra/i4/795343049/TB2jLRid9BYBeNjy0FeXXbnmFXa_!!795343049.jpg\" align=\"absmiddle\"\u003E\u003Cbr\u003E\u003Cimg style=\"max-width:750.0px;\" align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i2/795343049/TB2J.HLdFuWBuNjSspnXXX1NVXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg style=\"max-width:750.0px;\" src=\"https://img.alicdn.com/imgextra/i1/795343049/TB2sBLUdKuSBuNjSsziXXbq8pXa_!!795343049.jpg\" align=\"absmiddle\"\u003E\u003Cbr\u003E\u003Cimg style=\"max-width:750.0px;\" src=\"https://img.alicdn.com/imgextra/i4/795343049/TB2kGhAd_JYBeNjy1zeXXahzVXa_!!795343049.jpg\" align=\"absmiddle\"\u003E\u003Cbr\u003E\u003Cimg style=\"max-width:750.0px;\" align=\"absmiddle\"\u003E\u003Cbr\u003E"
+                    "value":"\u003Cimg class=\"desc_anchor\" id=\"desc-module-1\"\u003E\u003Cbr\u003E\u003Cimg alt=\"\" height=\"95\" width=\"190\"\u003E\u003Cbr\u003E\u003Cimg alt=\"\" height=\"95\" src=\"https://img.alicdn.com/imgextra/i2/795343049/TB2kfF6qgmTBuNjy1XbXXaMrVXa_!!795343049.jpg\" width=\"185\"\u003E\u003Cbr\u003E\u003Cimg alt=\"\" height=\"95\" src=\"https://img.alicdn.com/imgextra/i4/795343049/TB2WgmsflsmBKNjSZFFXXcT9VXa_!!795343049.jpg\" width=\"185\"\u003E\u003Cbr\u003E\u003Cimg alt=\"\" height=\"95\" width=\"190\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i4/795343049/TB2Wa6AqamWBuNjy1XaXXXCbXXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2sXjsqhWYBuNjy1zkXXXGGpXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i4/795343049/TB2fx1zqaSWBuNjSsrbXXa0mVXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i1/795343049/TB2dqW4qb5YBuNjSspoXXbeNFXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-2\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2YLevqbGYBuNjy0FoXXciBFXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i4/795343049/TB2yZ9FfbZnBKNjSZFrXXaRLFXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i1/795343049/TB2F3uVqh1YBuNjy1zcXXbNcXXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-3\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2VSugqgaTBuNjSszfXXXgfpXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i4/795343049/TB2vUm0qeySBuNjy1zdXXXPxFXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i2/795343049/TB2Nubnqf1TBuNjy0FjXXajyXXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2VMKcqbSYBuNjSspiXXXNzpXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i4/795343049/TB2xgfbqhSYBuNjSspjXXX73VXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2AQGEfiMnBKNjSZFzXXc_qVXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-4\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i1/795343049/TB2TT82h_XYBeNkHFrdXXciuVXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2XwjbqhSYBuNjSspjXXX73VXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg class=\"desc_anchor\" id=\"desc-module-5\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2J_j8qmBYBeNjy0FeXXbnmFXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i1/795343049/TB2TKOsqXGWBuNjy0FbXXb4sXXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2y206qgmTBuNjy1XbXXaMrVXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i2/795343049/TB2TP0Ch3KTBuNkSne1XXaJoXXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2yafwqhGYBuNjy0FnXXX5lpXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i4/795343049/TB2QySFfk7mBKNjSZFyXXbydFXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i1/795343049/TB2__n8qmBYBeNjy0FeXXbnmFXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i1/795343049/TB2KeGkqf9TBuNjy0FcXXbeiFXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg style=\"margin:10.0px;\" src=\"https://img.alicdn.com/imgextra/i1/795343049/TB2FHdkh2iSBuNkSnhJXXbDcpXa_!!795343049.jpg\" alt=\"\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i4/795343049/TB2Co5_qkCWBuNjy0FaXXXUlXXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i2/795343049/TB2aVrwqh9YBuNjy0FfXXXIsVXa_!!795343049.jpg\"\u003E\u003Cbr\u003E\u003Cimg align=\"absmiddle\" src=\"https://img.alicdn.com/imgextra/i3/795343049/TB2uACvfbArBKNjSZFLXXc_dVXa_!!795343049.jpg\"\u003E\u003Cbr\u003E"
             }
             ,"location":{
-        "value":"江苏宿迁"
+        "value":"山东烟台"
     }
         
 ,"shopCats":{
     "value":[
             ]
 }
-,"subTitle":{
-    "value": ""
-}
 ,"outerId":{
-    "value":"554795070202_1521127535929"
+    "value":"548914994448_1525701380347"
 }
         ,"purchaseLocation.isGlobalStock":{
         "value":"false"
@@ -5309,47 +4517,144 @@
 	                		,"prop_20000": {
 			"value":	
 								{
-		"value": "29534",
+		"value": "-2510",
 		        "remark":"",
 		"text":
-				"other/其他"
+				"自主品牌"
 		
 	}
 					}
-			                		,"prop_6861561": {
+			                		,"prop_13021751": {
 			"value":	
 								{
-		"value": "105255",
+		"value": "-10120816",
 		        "remark":"",
 		"text":
-				"棉"
+				"ak600-1500"
 		
 	}
 					}
-			                		,"prop_31480": {
+			                		,"prop_122276330": {
 			"value":	
 								{
-		"value": "3226219",
+		"value": "20825448",
 		        "remark":"",
 		"text":
-				"单人"
+				"安装工程"
+		
+	}
+					}
+			                		,"prop_10064123": {
+			"value":	
+								{
+		"value": "22074",
+		        "remark":"",
+		"text":
+				"激光"
+		
+	}
+					}
+			                		,"prop_10165148": {
+			"value":	
+								{
+		"value": "29786",
+		        "remark":"",
+		"text":
+				"10m"
 		
 	}
 					}
 			                                        ,"prop_1627207":{
             "value":[
                               	{
-		"value": "-1536505",
+		"value": "-10120817",
                     "imgUrl":"",
                             "remark":"",
-        		"text":"U型磁疗枕【1只】"
+        		"text":"800米测距"
                                 ,"custom":true
         	}
               ,                	{
-		"value": "-1536506",
+		"value": "-10120818",
                     "imgUrl":"",
                             "remark":"",
-        		"text":"U型磁疗枕【2只】"
+        		"text":"800米测距测高测角+两点测高"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120819",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"1200米测距"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120820",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"1200米测距测高测角+两点测高"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120821",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"1500米测距"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120822",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"1500米测距测高测角+两点测高"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120823",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"700米测距"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120824",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"700米测距测高测角+两点测高"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120825",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"可以加测速、高尔夫、蓝牙、数据"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120826",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"1000米测距"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120827",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"1000米测距测高测角+两点测高"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120828",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"350米测距测距测高测角"
+                                ,"custom":true
+        	}
+              ,                	{
+		"value": "-10120829",
+                    "imgUrl":"",
+                            "remark":"",
+        		"text":"350米测距"
                                 ,"custom":true
         	}
                          ]
@@ -5357,6 +4662,9 @@
             	
         
 
+            ,"subProp_20000_0":{
+            "value":"无"
+        }
     
 
 
@@ -5370,12 +4678,12 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-1536505"
+                            "value":"-10120817"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"51.4",
-								"quantity":"466",
+								"price":"434.4",
+								"quantity":"358",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -5384,12 +4692,166 @@
 			"fields":[
 			    			    			    				    					    		{
 			    			"id":"prop_1627207",
-                            "value":"-1536506"
+                            "value":"-10120818"
                         }
 			    					    				                    			],
 			"inputs":{
-								"price":"72.4",
-								"quantity":"324",
+								"price":"551.4",
+								"quantity":"440",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120819"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"694.4",
+								"quantity":"461",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120820"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"733.4",
+								"quantity":"241",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120821"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"863.4",
+								"quantity":"381",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120822"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"993.4",
+								"quantity":"469",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120823"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"369.4",
+								"quantity":"831",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120824"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"434.4",
+								"quantity":"397",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120825"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"860.8",
+								"quantity":"10000",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120826"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"525.4",
+								"quantity":"915",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120827"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"616.4",
+								"quantity":"856",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120828"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"395.4",
+								"quantity":"277",
+								"outerId":""
+								,"barcode":""
+																							}
+		}
+		 ,		{
+			"fields":[
+			    			    			    				    					    		{
+			    			"id":"prop_1627207",
+                            "value":"-10120829"
+                        }
+			    					    				                    			],
+			"inputs":{
+								"price":"327.8",
+								"quantity":"187",
 								"outerId":""
 								,"barcode":""
 																							}
@@ -5397,7 +4859,7 @@
 			]
 }
         ,"o2oPay.deposit":{
-    "value":51.4
+    "value":327.8
 }
         ,"payMode.type":{
 	"value": 1
@@ -5406,12 +4868,12 @@
 						"value":[1]
 				}
 	,"deliverTemplate": {
-		"value":11440351330
+		"value":13542230310
 	}
         	,"newEtc":{
 		"value":{
-			"itemId":566037390552, 
-			"catId": 50002777
+			"itemId":569230009791, 
+			"catId": 50008950
 						,"o2oStatus":0
 									,"relatedStore":0
 						,"isEdit":true
@@ -5438,6 +4900,9 @@
 		}
     }
 		
+	,"vipDiscount":{
+		"value": 0
+	}
 	,"subStockType":{
 		"value": 1
 	}
@@ -5445,7 +4910,7 @@
 		"value": 0
 	}
 ,"startTime.settingTime": {
-    "nowTime":"1521127753656",
+    "nowTime":"1525702054212",
     "maxDateRange":"14",
                         		"value":""
 	}                                    

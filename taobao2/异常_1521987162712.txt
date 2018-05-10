@@ -1,0 +1,21 @@
+警告:程序发生错误
+错误信息:访问无效内存
+         尝试的操作：读取
+         目标地址:0x331F9208
+发生位置:0x77A0F505
+相对地址:[ntdll.dll].0x0003F505
+分析位置:0x005CEEC7
+CallStack:
+ [ntdll.dll].RtlFreeHeap+0x02C5
+  [combase.dll]+0x0008832B=7556832B
+   [OLEAUT32.dll].SysFreeString+0x0157
+    [OLEAUT32.dll].VariantClear+0x7E
+     0x62EBB1A0
+      0x62EB7342
+       0x62EB75E3
+        0x62EB70F3
+         [msscript.ocx]+0x5D43=6A1F5D43
+          [msscript.ocx]+0x5DBF=6A1F5DBF
+           [msscript.ocx]+0x4F77=6A1F4F77
+            0x6A20125F
+             [005CEEC7]窗口程序集_窗口_店铺商品管理.子程序_超级复制_主线程

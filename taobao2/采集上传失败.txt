@@ -1,0 +1,7 @@
+
+
+{
+	"result":  false 	,"isLogin": true
+	,"ignore":  false 	,"msg": ""
+		,"helper":[{"name":"出错项","actHint":"修改","caption":"请发布前修改以下错误项","showType":0,"type":"error","items":[{"showType":0,"id":["nav_multiPicError"],"text":"多图错误","detail":"对不起，您存在盗图，盗图图片为：&lt;a href=\"http://gd3.alicdn.com/imgextra/i3/2663468907/TB2EE7Wgv5TBuNjSspmXXaDRVXa_!!2663468907.jpg\" target=\"_blank\"&gt;盗图1&lt;/a&gt;&nbsp;&nbsp;&lt;a href=\"http://gd2.alicdn.com/imgextra/i2/2663468907/TB29M_4lXGWBuNjy0FbXXb4sXXa_!!2663468907.jpg\" target=\"_blank\"&gt;盗图2&lt;/a&gt;&nbsp;&nbsp;&lt;a href=\"http://gd1.alicdn.com/imgextra/i1/2663468907/TB2nkZKlbSYBuNjSspfXXcZCpXa_!!2663468907.jpg\" target=\"_blank\"&gt;盗图3&lt;/a&gt;&nbsp;&nbsp;&lt;a href=\"http://gd2.alicdn.com/imgextra/i2/2663468907/TB2wnkBleuSBuNjy1XcXXcYjFXa_!!2663468907.jpg\" target=\"_blank\"&gt;盗图4&lt;/a&gt;&nbsp;&nbsp;","isExist":true}]}]		,"url": ""
+				}

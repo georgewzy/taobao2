@@ -1,0 +1,246 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="gbk">
+    <meta name="data-spm" content="a1z5i">
+    <link rel="dns-prefetch" href="//g.alicdn.com">
+    <link rel="dns-prefetch" href="//g.alicdn.com">
+    <link rel="dns-prefetch" href="//g-search1.alicdn.com">
+    <link rel="dns-prefetch" href="//g-search2.alicdn.com">
+    <link rel="dns-prefetch" href="//g-search3.alicdn.com">
+    <link rel="dns-prefetch" href="//g-search4.alicdn.com">
+    <link rel="dns-prefetch" href="//gtms01.alicdn.com">
+    <link rel="dns-prefetch" href="//gtms02.alicdn.com">
+    <link rel="dns-prefetch" href="//gtms03.alicdn.com">
+    <link rel="dns-prefetch" href="//gtms04.alicdn.com">
+    <link rel="shortcut icon" type="image/x-icon" href="//www.taobao.com/favicon.ico" />
+    <title>淘宝排行榜</title>
+
+    <script>
+        var g_config = {
+            appId: 3,
+            toolbar: false,
+            webww: true,
+            ap_mods: {
+                jstracker: [ 0.0001 ]
+            }
+        };
+    </script>
+    <!-- S GLOBAL CSS -->
+<link rel="stylesheet" href="//g.alicdn.com/tb/global/3.3.36/global-min.css">
+<!-- E GLOBAL CSS --><!-- S GLOBAL JS -->
+<script src="//g.alicdn.com/??kissy/k/1.4.15/seed-min.js,tb/global/3.3.36/global-min.js"></script>
+<!-- E GLOBAL JS -->            <script
+            src="//g.alicdn.com/??kissy/k/1.4.15/import-style-min.js,tb/tracker/1.0.19/index.js,tb/top/2.0.0/config.js"
+            charset="utf-8"></script>
+        <script>
+            Search.config({
+                base: '//g.alicdn.com/tb/top/2.0.0/',
+                name: 'srp',
+                combine: true
+            });
+            window.givenByFE = window.givenByFE || {};
+        </script>
+        <script>
+        g_page_config = {"mainInfo":{"currentUrl":"\/\/top.taobao.com\/index.php?spm=a1z5i.3.8.5.FPli5O&topId=TR_FS&leafId=50010850&rank=search&type=hot&s=80"},"pageName":"bang","mods":{"header":{"data":{"q":"","marketsOff":"1","product":{"name":"\u6392\u884c\u699c"},"tabParams":{"js":1,"stats_click":"","initiative_id":"staobaoz_20141225"},"baseAction":"\/\/s.taobao.com\/search","dropdown":[{"url":"\/\/s.taobao.com\/search","text":"\u5b9d\u8d1d","type":"item","isActive":true},{"url":"\/\/shopsearch.taobao.com\/search","text":"\u5e97\u94fa","type":"shop","isActive":false}],"spmModId":"1"},"status":"show"},"tab":{"data":{"tabs":[{"type":"all","weight":10,"name":"mall","id":"HOME","trace":"","href":"\/\/top.taobao.com\/index.php?topId=HOME","text":"\u9996\u9875","spmId":""},{"type":"all","weight":20,"name":"mall","id":"TR_FS","trace":"","href":"\/\/top.taobao.com\/index.php?topId=TR_FS&leafId=50010850","text":"\u670d\u9970","spmId":"","isActive":true},{"type":"all","weight":20,"name":"mall","id":"TR_SM","trace":"","href":"\/\/top.taobao.com\/index.php?topId=TR_SM&leafId=1101","text":"\u6570\u7801\u5bb6\u7535","spmId":""},{"type":"all","weight":20,"name":"mall","id":"TR_HZP","trace":"","href":"\/\/top.taobao.com\/index.php?topId=TR_HZP&leafId=121454013","text":"\u5316\u5986\u54c1","spmId":""},{"type":"all","weight":20,"name":"mall","id":"TR_MY","trace":"","href":"\/\/top.taobao.com\/index.php?topId=TR_MY&leafId=50013618","text":"\u6bcd\u5a74","spmId":""},{"type":"all","weight":20,"name":"mall","id":"TR_SP","trace":"","href":"\/\/top.taobao.com\/index.php?topId=TR_SP&leafId=50008055","text":"\u98df\u54c1","spmId":""},{"type":"all","weight":20,"name":"mall","id":"TR_WT","trace":"","href":"\/\/top.taobao.com\/index.php?topId=TR_WT&leafId=50014075","text":"\u6587\u4f53","spmId":""},{"type":"all","weight":20,"name":"mall","id":"TR_JJ","trace":"","href":"\/\/top.taobao.com\/index.php?topId=TR_JJ&leafId=50016434","text":"\u5bb6\u5c45","spmId":""},{"type":"all","weight":20,"name":"mall","id":"TR_ZH","trace":"","href":"\/\/top.taobao.com\/index.php?topId=TR_ZH&leafId=50011975","text":"\u8f66|\u73a9\u5177|\u5ba0\u7269","spmId":""}],"spmModId":"2"},"status":"show"},"cstyle":{"data":{"mainColor":"#f56293"},"status":"show"},"nav":{"data":{"common":[{"text":"\u65f6\u5c1a\u5973\u88c5","sub":[{"text":"\u8fde\u8863\u88d9","value":"50010850","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50010850","selected":1},{"text":"T\u6064","value":"50000671","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50000671"},{"text":"\u534a\u8eab\u88d9","value":"1623","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=1623"},{"text":"\u725b\u4ed4\u88e4","value":"162205","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=162205"},{"text":"\u886c\u886b","value":"162104","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=162104"},{"text":"\u857e\u4e1d\/\u96ea\u7eba\u886b","value":"162116","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=162116"},{"text":"\u80cc\u5fc3\/\u540a\u5e26","value":"121412004","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=121412004"},{"text":"\u6253\u5e95\u88e4","value":"50007068","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50007068"},{"text":"\u9a6c\u7532","value":"50013196","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50013196"},{"text":"\u6bdb\u5462\u5916\u5957","value":"50013194","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50013194"},{"text":"\u6bdb\u8863","value":"162103","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=162103"},{"text":"\u98ce\u8863","value":"50008901","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008901"},{"text":"\u536b\u8863\/\u7ed2\u886b","value":"50008898","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008898"},{"text":"\u5973\u58eb\u897f\u88c5","value":"50008897","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008897"},{"text":"\u9488\u7ec7\u886b","value":"50000697","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50000697"},{"text":"\u68c9\u8863\/\u68c9\u670d","value":"50008900","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008900"},{"text":"\u88e4\u5b50","value":"1622","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=1622"},{"text":"\u5a5a\u7eb1\/\u793c\u670d","value":"50011404","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011404"},{"text":"\u4e2d\u8001\u5e74\u670d\u88c5","value":"50000852","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50000852"},{"text":"\u7279\u5927\u7279\u5c0f\u670d\u88c5","value":"1629","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=1629"},{"text":"\u5973\u58eb\u76ae\u8863","value":"50008904","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008904"},{"text":"\u5973\u58eb\u76ae\u8349","value":"50008905","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008905"},{"text":"\u77ed\u5916\u5957","value":"50011277","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011277"},{"text":"\u7fbd\u7ed2\u670d","value":"50008899","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008899"},{"text":"\u4f11\u95f2\u957f\u88e4","value":"162201","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=162201"},{"text":"\u6c11\u65cf\/\u821e\u53f0\u670d","value":"50008906","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008906"},{"text":"\u5b66\u751f\u6821\u670d","value":"50008903","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008903"},{"text":"\u5de5\u4f5c\u5236\u670d","value":"1624","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=1624"}],"defaultShowMore":true},{"text":"\u9753\u4e3d\u5973\u978b","sub":[{"text":"\u51c9\u978b","value":"50012032","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012032"},{"text":"\u5e06\u5e03\u978b","value":"50012042","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012042"},{"text":"\u96e8\u978b","value":"50012047","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012047"},{"text":"\u62d6\u978b","value":"50012033","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012033"},{"text":"\u4f4e\u5e2e\u978b","value":"50012027","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012027"},{"text":"\u9ad8\u5e2e\u978b","value":"50012825","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012825"}],"defaultShowMore":false},{"text":"\u5e05\u6c14\u7537\u88c5","sub":[{"text":"\u5939\u514b","value":"50010158","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50010158"},{"text":"\u7fbd\u7ed2\u670d","value":"50011167","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011167"},{"text":"\u76ae\u8863","value":"50011161","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011161"},{"text":"\u4f11\u95f2\u88e4","value":"3035","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=3035"},{"text":"\u886c\u886b","value":"50011123","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011123"},{"text":"\u536b\u8863","value":"50010159","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50010159"},{"text":"\u725b\u4ed4\u88e4","value":"50010167","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50010167"},{"text":"\u6bdb\u8863","value":"50000557","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50000557"},{"text":"\u98ce\u8863","value":"50011159","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011159"},{"text":"\u897f\u670d","value":"50010160","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50010160"},{"text":"T\u6064","value":"50000436","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50000436"},{"text":"\u68c9\u8863","value":"50011165","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011165"},{"text":"\u80cc\u5fc3","value":"50011153","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011153"},{"text":"Polo\u886b","value":"50010402","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50010402"},{"text":"\u897f\u670d\u5957\u88c5","value":"50011130","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011130"},{"text":"\u897f\u88e4","value":"50011129","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011129"},{"text":"\u76ae\u88e4","value":"50011127","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011127"},{"text":"\u6c11\u65cf\u670d\u88c5","value":"50001748","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50001748"},{"text":"\u5de5\u88c5\u5236\u670d","value":"50005867","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50005867"}],"defaultShowMore":false},{"text":"\u6d41\u884c\u7537\u978b","sub":[{"text":"\u4f4e\u5e2e\u978b","value":"50012906","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012906"},{"text":"\u5e06\u5e03\u978b","value":"50011744","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011744"},{"text":"\u9ad8\u5e2e\u978b","value":"50012907","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012907"},{"text":"\u62d6\u978b","value":"50011746","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011746"},{"text":"\u51c9\u978b","value":"50011745","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011745"},{"text":"\u9774\u5b50","value":"50011743","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50011743"},{"text":"\u96e8\u978b","value":"50012908","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012908"}],"defaultShowMore":false},{"text":"\u5185\u8863\/\u5bb6\u5c45\u670d","sub":[{"text":"\u7761\u8863\/\u5bb6\u5c45\u670d\u5957\u88c5","value":"50012772","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012772"},{"text":"\u889c\u5b50","value":"50006846","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50006846"},{"text":"\u5185\u88e4","value":"50008882","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008882"},{"text":"\u7761\u88d9","value":"50012771","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012771"},{"text":"\u6587\u80f8","value":"50008881","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008881"},{"text":"\u7761\u88e4","value":"50012766","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012766"},{"text":"\u4fdd\u6696\u5957\u88c5","value":"50012778","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012778"},{"text":"\u6587\u80f8\u5957\u88c5","value":"50008883","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008883"},{"text":"\u7761\u888d\/\u6d74\u888d","value":"50012773","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012773"},{"text":"\u5851\u8eab\u8fde\u4f53\u8863","value":"50012781","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012781"},{"text":"\u5851\u8eab\u8863","value":"50008884","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008884"},{"text":"\u5851\u8eab\u88e4","value":"50012774","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012774"},{"text":"\u540a\u5e26\/\u80cc\u5fc3","value":"50010394","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50010394"},{"text":"\u7761\u8863\u4e0a\u88c5","value":"50008886","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008886"},{"text":"\u62b9\u80f8","value":"50008888","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008888"},{"text":"\u5851\u8eab\u5206\u4f53\u5957\u88c5","value":"50012776","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012776"},{"text":"\u80a9\u5e26","value":"50012784","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012784"},{"text":"\u4fdd\u6696\u4e0a\u88c5","value":"50008885","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50008885"}],"defaultShowMore":false},{"text":"\u7cbe\u54c1\u7bb1\u5305","sub":[{"text":"\u5973\u58eb\u5305\u888b","value":"50012010","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012010"},{"text":"\u94b1\u5305","value":"121434005","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=121434005"},{"text":"\u65c5\u884c\u7bb1","value":"50012019","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=50012019"}],"defaultShowMore":false},{"text":"\u7480\u74a8\u73e0\u5b9d","sub":[{"text":"\u65bd\u534e\u6d1b\u4e16\u5947","value":"121366034","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=121366034"},{"text":"\u5929\u7136\u73cd\u73e0","value":"121418029","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=121418029"},{"text":"\u94c2\u91d1\u9996\u9970","value":"121422036","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=121422036"},{"text":"\u9ec4\u91d1\u9996\u9970","value":"121470039","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=121470039"},{"text":"\u94bb\u77f3\u9996\u9970","value":"121420031","desc":"","key":"leafId","url":".\/index.php?topId=TR_FS&leafId=121420031"}],"defaultShowMore":false}],"spmModId":"3"},"status":"show"},"bswitch":{"data":{"switchs":[{"name":"\u9500\u552e\u4e0a\u5347\u699c","key":"leafId","value":"","rank":"sale","type":"up","url":".\/index.php?topId=TR_FS&leafId=50010850&rank=sale&type=up"},{"name":"\u9500\u552e\u70ed\u95e8\u6392\u884c","key":"leafId","value":"","rank":"sale","type":"hot","url":".\/index.php?topId=TR_FS&leafId=50010850&rank=sale&type=hot"},{"name":"\u641c\u7d22\u4e0a\u5347\u699c","key":"leafId","value":"","rank":"search","type":"up","url":".\/index.php?topId=TR_FS&leafId=50010850&rank=search&type=up"},{"name":"\u641c\u7d22\u70ed\u95e8\u6392\u884c","key":"leafId","value":"","rank":"search","type":"hot","url":".\/index.php?topId=TR_FS&leafId=50010850&rank=search&type=hot","selected":true},{"name":"\u54c1\u724c\u4e0a\u5347\u699c","key":"leafId","value":"","rank":"brand","type":"up","url":".\/index.php?topId=TR_FS&leafId=50010850&rank=brand&type=up"},{"name":"\u54c1\u724c\u70ed\u95e8\u6392\u884c","key":"leafId","value":"","rank":"brand","type":"hot","url":".\/index.php?topId=TR_FS&leafId=50010850&rank=brand&type=hot"}],"spmModId":"4"},"status":"show"},"wbang":{"data":{"titleRow":{"col1":{"text":"\u6392\u540d","width":5},"col2":{"text":"\u5173\u952e\u8bcd","width":30},"col3":{"text":"\u53c2\u8003\u4ef7","width":0},"col4":{"text":"\u5173\u6ce8\u6307\u6570","width":35},"col5":{"text":"\u5347\u964d\u4f4d\u6b21","width":15},"col6":{"text":"\u5347\u964d\u5e45\u5ea6","width":15}},"list":[{"col1":{"text":81},"col2":{"text":"\u5b63\u5019\u98ce\u8fde\u8863\u88d9","url":"\/\/s.taobao.com\/search?q=\u5b63\u5019\u98ce\u8fde\u8863\u88d9&cat=50102996"},"col3":[],"col4":{"num":"301.8","percent":1.20065},"col5":{"text":3,"upOrDown":0},"col6":{"text":"3.8%","upOrDown":0}},{"col1":{"text":82},"col2":{"text":"\u65d7\u888d\u8fde\u8863\u88d9","url":"\/\/s.taobao.com\/search?q=\u65d7\u888d\u8fde\u8863\u88d9&cat=50102996"},"col3":[],"col4":{"num":"299.9","percent":1.1891},"col5":{"text":12,"upOrDown":0},"col6":{"text":"17.1%","upOrDown":0}},{"col1":{"text":83},"col2":{"text":"\u5929\u5929\u7279\u4ef7","url":"\/\/s.taobao.com\/search?q=\u5929\u5929\u7279\u4ef7&cat=50102996"},"col3":[],"col4":{"num":"299.9","percent":1.1891},"col5":{"text":17,"upOrDown":1},"col6":{"text":"100%","upOrDown":1}},{"col1":{"text":84},"col2":{"text":"\u804c\u4e1a\u5957\u88c5\u5973","url":"\/\/s.taobao.com\/search?q=\u804c\u4e1a\u5957\u88c5\u5973&cat=50102996"},"col3":[],"col4":{"num":"299.9","percent":1.1891},"col5":{"text":16,"upOrDown":1},"col6":{"text":"100%","upOrDown":1}},{"col1":{"text":85},"col2":{"text":"\u5927\u6446\u88d9","url":"\/\/s.taobao.com\/search?q=\u5927\u6446\u88d9&cat=50102996"},"col3":[],"col4":{"num":"298.1","percent":1.17756},"col5":{"text":3,"upOrDown":0},"col6":{"text":"3.7%","upOrDown":0}},{"col1":{"text":86},"col2":{"text":"\u5973\u88c5\u5957\u88c5","url":"\/\/s.taobao.com\/search?q=\u5973\u88c5\u5957\u88c5&cat=50102996"},"col3":[],"col4":{"num":"296.2","percent":1.16601},"col5":{"text":13,"upOrDown":1},"col6":{"text":"100%","upOrDown":1}},{"col1":{"text":87},"col2":{"text":"\u9023\u8863\u88d9","url":"\/\/s.taobao.com\/search?q=\u9023\u8863\u88d9&cat=50102996"},"col3":[],"col4":{"num":"296.2","percent":1.16601},"col5":{"text":1,"upOrDown":0},"col6":{"text":"1.2%","upOrDown":0}},{"col1":{"text":88},"col2":{"text":"\u6b4c\u529b\u601d\u5b98\u65b9\u65d7\u8230\u5e97","url":"\/\/s.taobao.com\/search?q=\u6b4c\u529b\u601d\u5b98\u65b9\u65d7\u8230\u5e97&cat=50102996"},"col3":[],"col4":{"num":"294.3","percent":1.15447},"col5":{"text":9,"upOrDown":1},"col6":{"text":"100%","upOrDown":1}},{"col1":{"text":89},"col2":{"text":"\u5988\u5988\u88c5\u8fde\u8863\u88d9","url":"\/\/s.taobao.com\/search?q=\u5988\u5988\u88c5\u8fde\u8863\u88d9&cat=50102996"},"col3":[],"col4":{"num":"294.3","percent":1.15447},"col5":{"text":2,"upOrDown":1},"col6":{"text":"2.2%","upOrDown":1}},{"col1":{"text":90},"col2":{"text":"\u6625\u5b63 2018","url":"\/\/s.taobao.com\/search?q=\u6625\u5b63 2018&cat=50102996"},"col3":[],"col4":{"num":"294.3","percent":1.15447},"col5":{"text":4,"upOrDown":0},"col6":{"text":"4.7%","upOrDown":0}},{"col1":{"text":91},"col2":{"text":"\u7ea2\u8272","url":"\/\/s.taobao.com\/search?q=\u7ea2\u8272&cat=50102996"},"col3":[],"col4":{"num":"294.3","percent":1.15447},"col5":{"text":5,"upOrDown":0},"col6":{"text":"6%","upOrDown":0}},{"col1":{"text":92},"col2":{"text":"\u6717\u59ff\u5b98\u65b9\u65d7\u8230\u5e97","url":"\/\/s.taobao.com\/search?q=\u6717\u59ff\u5b98\u65b9\u65d7\u8230\u5e97&cat=50102996"},"col3":[],"col4":{"num":"292.3","percent":1.14292},"col5":{"text":15,"upOrDown":0},"col6":{"text":"19.5%","upOrDown":0}},{"col1":{"text":93},"col2":{"text":"\u65e5\u672c \u8fde\u8863\u88d9","url":"\/\/s.taobao.com\/search?q=\u65e5\u672c \u8fde\u8863\u88d9&cat=50102996"},"col3":[],"col4":{"num":"292.3","percent":1.14292},"col5":{"text":6,"upOrDown":0},"col6":{"text":"6.9%","upOrDown":0}},{"col1":{"text":94},"col2":{"text":"\u7f8a\u6bdb \u539a","url":"\/\/s.taobao.com\/search?q=\u7f8a\u6bdb \u539a&cat=50102996"},"col3":[],"col4":{"num":"292.3","percent":1.14292},"col5":{"text":6,"upOrDown":0},"col6":{"text":"6.8%","upOrDown":0}},{"col1":{"text":95},"col2":{"text":"\u536b\u8863 \u8fde\u8863\u88d9 \u6625","url":"\/\/s.taobao.com\/search?q=\u536b\u8863 \u8fde\u8863\u88d9 \u6625&cat=50102996"},"col3":[],"col4":{"num":"288.5","percent":1.11983},"col5":{"text":6,"upOrDown":0},"col6":{"text":"6.7%","upOrDown":0}},{"col1":{"text":96},"col2":{"text":"2018\u65b0\u6b3e\u8fde\u8863\u88d9","url":"\/\/s.taobao.com\/search?q=2018\u65b0\u6b3e\u8fde\u8863\u88d9&cat=50102996"},"col3":[],"col4":{"num":"288.5","percent":1.11983},"col5":{"text":4,"upOrDown":1},"col6":{"text":"100%","upOrDown":1}},{"col1":{"text":97},"col2":{"text":"\u4ed9\u5973\u88d9","url":"\/\/s.taobao.com\/search?q=\u4ed9\u5973\u88d9&cat=50102996"},"col3":[],"col4":{"num":"288.5","percent":1.11983},"col5":{"text":3,"upOrDown":1},"col6":{"text":"100%","upOrDown":1}},{"col1":{"text":98},"col2":{"text":"\u4f18\u8863\u5e93\u5b98\u65b9\u65d7\u8230\u5e97","url":"\/\/s.taobao.com\/search?q=\u4f18\u8863\u5e93\u5b98\u65b9\u65d7\u8230\u5e97&cat=50102996"},"col3":[],"col4":{"num":"286.5","percent":1.10829},"col5":{"text":5,"upOrDown":0},"col6":{"text":"5.3%","upOrDown":0}},{"col1":{"text":99},"col2":{"text":"\u96c5\u83b9","url":"\/\/s.taobao.com\/search?q=\u96c5\u83b9&cat=50102996"},"col3":[],"col4":{"num":"286.5","percent":1.10829},"col5":{"text":2,"upOrDown":1},"col6":{"text":"100%","upOrDown":1}},{"col1":{"text":100},"col2":{"text":"\u5973\u88c52017\u65b0\u6b3e\u6f6e","url":"\/\/s.taobao.com\/search?q=\u5973\u88c52017\u65b0\u6b3e\u6f6e&cat=50102996"},"col3":[],"col4":{"num":"286.5","percent":1.10829},"col5":{"text":2,"upOrDown":0},"col6":{"text":"2.1%","upOrDown":0}}],"spmModId":"5"},"status":"show"},"pager":{"data":{"pageSize":20,"totalCount":100,"totalPage":5,"currentPage":5,"url":"\/index.php?spm=a1z5i.3.8.5.FPli5O&topId=TR_FS&leafId=50010850&rank=search&type=hot","spmModId":"8"},"status":"show"}}};
+        g_srp_loadCss();
+        g_srp_init();
+    </script>
+</head>
+<body data-spm= "3" >
+<script>
+    with(document)with(body)with(insertBefore(createElement("script"),firstChild))setAttribute("exparams","category=&userid=&aplus&yunid=",id="tb-beacon-aplus",src=(location>"https"?"//s.tbcdn.cn/":"//assets.alicdn.com/")+"s/aplus_v2.js")
+</script>
+
+<div id="page" class="srp-page">
+    <!-- 吊顶 -->
+    <!-- S GLOBAL HTML -->
+<div id="J_SiteNav" class="site-nav">
+    <div id="J_SiteNavBd" class="site-nav-bd">
+        <ul id="J_SiteNavBdL" class="site-nav-bd-l"></ul>
+        <ul id="J_SiteNavBdR" class="site-nav-bd-r"></ul>
+    </div>
+</div>
+<!-- --><!-- 全网顶通 --><!-- E GLOBAL HTML -->    <script>
+        TB.Global.blacklist = ['fn-cart'];
+        TB.Global.init();
+    </script>
+
+    <div id="main" class="srp-main">
+        <div class="srp-loading"  style="text-align:center; margin: 100px auto 0; height:48px; width: 48px; background-image: url(data:image/gif;base64,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);"></div>
+    </div>
+
+    <!-- 页尾 -->
+    <div id="srp-footer">
+        <textarea id="srp-footer-tmpl" style="visibility:hidden">
+            <style>
+                .footer_2014{
+                    width: 1190px;
+                    margin: 0 auto;
+                }
+                .w990 .footer_2014{
+                    width: 990px;
+                }
+
+            </style>
+            <div class="footer_2014">
+                <style>
+                    .footer{position:relative;margin:0 auto;padding:7px 0 9px;border-top:1px solid #ddd}.footer .footer-bd p,.footer .footer-hd p{padding-bottom:8px;overflow:hidden;*zoom:1}.footer .footer-bd a,.footer .footer-hd a{display:inline;float:left;margin:0 4px;white-space:nowrap;color:#6c6c6c}.footer .footer-bd a:hover,.footer .footer-hd a:hover{color:#f40;text-decoration:none}.footer .footer-bd b,.footer .footer-hd b{display:inline;float:left;margin:0 3px;font-weight:400;color:#ddd}.footer .footer-bd em,.footer .footer-bd span,.footer .footer-hd em,.footer .footer-hd span{display:inline;float:left;white-space:nowrap;color:#9c9c9c}.footer .footer-bd em,.footer .footer-hd em{margin-left:30px}.footer .footer-bd span,.footer .footer-hd span{margin:0 4px}.footer .footer-bd span a,.footer .footer-hd span a{float:none}.footer .footer-hd p{margin-bottom:8px;line-height:27px;border-bottom:1px solid #ddd}.footer .foot-ft{display:none}
+                </style>
+                
+<div class="footer" data-spm="1997523009">
+    <div class="footer-hd">
+        <p>
+            <a href="//www.alibabagroup.com/cn/global/home">阿里巴巴集团</a>
+            <b>|</b>
+            <a href="//www.taobao.com">淘宝网</a>
+            <b>|</b>
+            <a href="//www.tmall.com">天猫</a>
+            <b>|</b>
+            <a href="//ju.taobao.com">聚划算</a>
+            <b>|</b>
+            <a href="//www.aliexpress.com">全球速卖通</a>
+            <b>|</b>
+            <a href="//www.alibaba.com/">阿里巴巴国际交易市场</a>
+            <b>|</b>
+            <a href="//www.1688.com">1688</a>
+            <b>|</b>
+            <a href="//www.alimama.com">阿里妈妈</a>
+            <b>|</b>
+            <a href="//trip.taobao.com">阿里旅行 · 去啊</a>
+            <b>|</b>
+            <a href="//www.aliyun.com">阿里云计算</a>
+            <b>|</b>
+            <a href="//www.yunos.com">YunOS</a>
+            <b>|</b>
+            <a href="//www.aliqin.cn/">阿里通信</a>
+            <b>|</b>
+            <a href="//www.net.cn">万网</a>
+            <b>|</b>
+            <a href="//www.autonavi.com/">高德</a>
+            <b>|</b>
+            <a href="//www.uc.cn/">优视</a>
+            <b>|</b>
+            <a href="//www.umeng.com/">友盟</a>
+            <br>
+            <a href="//kanbox.com?ref=taobao">酷盘</a>
+            <b>|</b>
+            <a href="//www.xiami.com">虾米</a>
+            <b>|</b>
+            <a href="//www.ttpod.com/">天天动听</a>
+            <b>|</b>
+            <a href="//www.laiwang.com/">来往</a>
+            <b>|</b>
+            <a href="//www.alipay.com">支付宝</a>
+        </p>
+    </div>
+    <div class="footer-bd">
+        <p>
+            <a href="//www.taobao.com/about">关于淘宝</a>
+            <a href="//www.taobao.com/about/partners.php">合作伙伴</a>
+            <a href="//pro.taobao.com">营销中心</a>
+            <a href="//jubao.alibaba.com" >廉正举报</a>
+            <a href="//service.taobao.com/support/main/service_route.htm">联系客服</a>
+            <a href="//open.taobao.com">开放平台</a>
+            <a href="//www.taobao.com/about/join.php">诚征英才</a>
+            <a href="//www.taobao.com/about/contact.php">联系我们</a>
+            <a href="//www.taobao.com/sitemap.php">网站地图</a>
+            <a href="//www.taobao.com/go/chn/tb-fp/2014/law.php">法律声明</a>
+            <em>&copy; 2003-2015 Taobao.com 版权所有</em>
+        </p>
+        <p>
+            <span>网络文化经营许可证：<a href="//img.alicdn.com/tps/i4/T1ysdvXtNeXXcPpEkQ-972-636.jpg">文网文[2010]040号</a></span>
+            <b>|</b>
+            <span data-spm-protocol="i">增值电信业务经营许可证：<a href="http://zcainfo.miitbeian.gov.cn/state/outPortal/loginPortal.action">浙B2-20080224-1</a></span>
+            <b>|</b>
+            <span>信息网络传播视听节目许可证：1109364号</span>
+            <b>|</b>
+            <span> 互联网违法和不良信息举报电话:0571-81683755 </span>
+        </p>
+    </div>
+    <div class="footer-ft">
+
+        <a href="//www.pingpinganan.gov.cn/" class="mod " title="">
+            <img width="36" height="36" src="//img.alicdn.com/tps/i1/T1FeW3XXNfXXXXXXXX-36-36.gif">
+        </a>
+        <a href="//idinfo.zjaic.gov.cn/bscx.do?spm=1.7274553.1997523009.28.alN7ce&method=hddoc&id=33018400000067" class="mod mod-a" title="">
+        </a>
+        <a href="//idinfo.zjaic.gov.cn/bscx.do?spm=1.7274553.1997523009.29.alN7ce&method=hddoc&id=33018400000067" class="mod mod-b" title="">
+        </a>
+        <a href="//www.theclimategroup.org.cn/about/friend?spm=1.7274553.1997523009.30.alN7ce" class="mod mod-c" title="">
+        </a>
+        <a href="//ss.knet.cn/verifyseal.dll?spm=1.7274553.1997523009.31.alN7ce&&sn=2010062300100001357&pa=20100701" class="mod mod-d" title="">
+        </a>
+        <a href="//www.ppaaol.com/verifySite.do?spm=1.7274553.1997523009.32.alN7ce&id=1051" class="mod mod-e" title="">
+        </a>
+
+    </div>
+</div>
+        </textarea>
+    </div>
+</div>
+<!--<div style="color:#fff;width: 180px;margin: auto" id="server-num">--><!--</div>-->
+
+<!-- js 禁用提示 -->
+<noscript>
+    <style>
+        .srp-page{
+            display: none;
+        }
+
+        .js-disabled {
+            margin: 30px auto 0;
+            width: 990px;
+            height: 400px;
+            position: relative;
+        }
+
+        .js-disabled .logo {
+            position: absolute;
+            top: 0px;
+            left: 0;
+            width: 169px;
+            height: 42px
+        }
+
+        .js-disabled .bg {
+            width: 990px;
+            height: 400px;
+            background: url(//gtms03.alicdn.com/tps/i3/TB1x0j4FVXXXXbpXXXXvZjUHXXX-990-400.png) 0 0 no-repeat;
+        }
+
+        .js-disabled .text {
+            position: absolute;
+            top: 288px;
+            left: 475px;
+            color: #60636b;
+        }
+
+        .js-disabled .link {
+            color: #f40;
+        }
+
+        .js-disabled .bottom {
+            text-align: center;
+            color: #9c9c9c;
+        }
+    </style>
+
+    <div class="js-disabled">
+        <div class="bg"></div>
+        <a class="logo" href="//www.taobao.com"></a>
+        <p class="text">启用脚本才能显示当前页面, <a class="link"
+                                         href="//bangpai.taobao.com/group/thread/400769-7367089.htm#reply60023761"
+                                         target="_blank">点击启用</a></p>
+        <img src="//s.taobao.com/noscript.img" style="width: 0px;height: 0px;"/>
+        <p class="bottom">&copy; 2003-2015 Taobao.com 版权所有</p>
+    </div>
+</noscript>
+
+</body>
+</html>
+
+
